@@ -1,0 +1,42 @@
+\newgeometry{hmargin={1in, 1in}, vmargin={1.5in, 1in}}
+\thispagestyle{empty}
+\begin{center}
+    {\huge\textbf{\usevar{\srsTitle}}}\vspace{1in}
+
+    {\huge\textbf{BY}}\vspace{.5in}
+
+    {\huge\textbf{%
+        \usevar{\srsAuthorOne} \\
+        \usevar{\srsAuthorTwo} \\
+        \usevar{\srsAuthorThree} \\
+    }}\vfill
+
+    {\large\textbf{%
+        This Project Submitted in Partial Fulfillment of the\\
+        Requirement for Bachelor Degree of Engineering\\
+        (Software Engineering)\\
+        Department of Computer Engineering, Faculty of\\
+        Engineering KASERTSART UNIVERSITY\\
+        Academic Year \usevar{\srsAcademicYear}\\
+    }}
+\end{center}
+
+\vspace{.5in}
+
+{\large\textbf{Approved By:}}\vspace{.2in}
+
+\begin{tabularx}{1\textwidth}{X >{\hsize=.4\hsize}X}
+    \textbf{Advisor}\dotfill & \textbf{Date}\dotfill \\
+    \multicolumn{1}{r}{(\usevar{\srsAdvisorName})} & \\[.1in]
+
+    \ifx\srsCoAdvisorName\empty
+    \else
+    \textbf{Co-Advisor}\dotfill & \textbf{Date}\dotfill \\
+    \multicolumn{1}{r}{(\usevar{\srsCoAdvisorName})} & \\[.1in]
+    \fi
+
+    \textbf{Head of Department}\dotfill & \textbf{Date}\dotfill \\
+    \multicolumn{1}{r}{(\usevar{\srsHoDName})} & \\
+\end{tabularx}
+
+\restoregeometry

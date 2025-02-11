@@ -1,0 +1,84 @@
+\documentclass{report}
+
+\usepackage{skesrsstyles}  % use styles from SKE SRS
+
+% Add third-party packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}  % Times New Roman font package
+\usepackage[hidelinks]{hyperref}  % Allows hyperlink text in built document
+\usepackage{url}  % Allows url line breaks
+\usepackage{microtype}  % For hyphen-letterspacing configuration
+\usepackage{cleveref}  % Smarter referencing
+\usepackage{graphicx}  % Allows insertions of graphics
+\usepackage{tabularx}  % Better tabular environment, with dynamic column size support
+\usepackage{indentfirst}  % Indent first paragraph after headers
+\usepackage{enumitem}  % Better control of itemize, enumerate
+
+\graphicspath{{./assets}}
+
+% add macro to substitute for empty vars
+\def \usevar#1{\ifx\empty#1 \empty\else #1\fi}
+
+
+%% -----------------------------------
+% Edit the variables for the paper here!
+\def \srsTitle{Project Title}
+\def \srsAuthorOne{Name Surname}
+\def \srsAuthorTwo{Name Surname}
+\def \srsAuthorThree{Name Surname}
+\def \srsAcademicYear{YYYY}
+
+\def \srsAdvisorName{Project Advisor's Name}
+\def \srsCoAdvisorName{Project Co-Advisor's Name}
+\def \srsHoDName{Head of Department's Name}
+%% -----------------------------------
+
+\begin{document}
+
+    \addtocontents{toc}{\moderate\noindent\textbf{Content}\hfill\textbf{Page}\par\addvspace{.2in}\normalsize}
+    \addtocontents{lot}{~\hfill\textbf{Page}\par\addvspace{.2in}\normalsize}
+    \addtocontents{lof}{~\hfill\textbf{Page}\par\addvspace{.2in}\normalsize}
+
+    \include{partials/cover}
+    \include{partials/innercover}
+
+    \pagenumbering{roman}
+    \setlength{\parindent}{40pt}
+
+    \include{body/abstract}
+    \include{body/acknowledgement}
+
+    \tableofcontents
+
+    \newpage
+    \listoftables
+    \label{chap:lot}
+    \addcontentsline{toc}{chapter}{\nameref{chap:lot}}
+
+    \newpage
+    \listoffigures
+    \label{chap:lof}
+    \addcontentsline{toc}{chapter}{\nameref{chap:lof}}
+
+    \clearpage
+    \pagenumbering{arabic}
+    %% Chapters section
+    %% You may use percent-sign (%) to comment parts you don't want included
+    \include{body/introduction}
+    \include{body/relatedworks}
+    \include{body/requirementanalysis}
+    \include{body/softwarearchitecture}
+    \include{body/softwaredevelopment}
+    \include{body/deliverable}
+    \include{body/discussion}
+    %% Chapters section
+
+    \input{common/onetextpage.tex}
+    \onetextpage{Reference}
+    \bibliographystyle{IEEEtran}
+    \bibliography{bibliography}  % change the inside to your bibliography file name
+
+    \include{body/appendices}
+
+\end{document}

@@ -1,0 +1,29 @@
+\input{common/onetextpage.tex}
+\newcounter{nappendix}
+\renewcommand{\thenappendix}{\Alph{nappendix}}
+\newcommand{\newappendix}[1]{%
+    \refstepcounter{nappendix}
+    \onetextpage{Appendix \thenappendix}
+    \chapter*{Appendix \thenappendix: #1}
+    \label{appendix:\thenappendix}
+    \addcontentsline{toc}{chapter}{Appendix \thenappendix: #1}
+}
+
+%% Edit past this comment line.
+
+\newappendix{Example}
+<TIP: Put additional or supplementary information/data/figures in appendices. />
+
+%% Remove the following appendix before publishing your work.
+
+\newappendix{About \LaTeX}
+LaTeX (stylized as \LaTeX) is a software system for typesetting documents. LaTeX markup describes the content and layout of the document,
+as opposed to the formatted text found in WYSIWYG word processors like Google Docs, LibreOffice Writer, and Microsoft Word.
+The writer uses markup tagging conventions to define the general structure of a document,
+to stylize text throughout a document (such as bold and italics), and to add citations and cross-references.
+
+LaTeX is widely used in academia for the communication and publication of scientific documents and technical note-taking in many fields,
+owing partially to its support for complex mathematical notation. It also has a prominent role in the preparation and publication of books and articles
+that contain complex multilingual materials, such as Arabic and Greek.
+
+Overleaf has also provided a 30-minute guide on how you can get started on using \LaTeX. \cite{overleaf:learnlatex}

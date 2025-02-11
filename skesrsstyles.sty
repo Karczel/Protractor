@@ -1,0 +1,144 @@
+% Styling for KU SKE SRS Documentation along with new commands to specify unusual text sizes.
+
+\NeedsTeXFormat{LaTeX2e}
+\ProcessOptions\relax
+
+% set page geometry
+\usepackage[a4paper]{geometry}
+\AtBeginDocument{
+    \newgeometry{
+        hmargin={1.5in, 1in},
+        vmargin={1.5in, 1in}
+    }
+}
+
+\widowpenalty=10000
+\clubpenalty=10000
+\flushbottom
+\sloppy
+
+\usepackage{fancyhdr}
+\fancyhf{}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0pt}
+\rhead{\thepage}
+
+% renew fonts
+\renewcommand{\normalsize}{
+    % 14pt - base normal font
+    \@setfontsize\normalsize\@xivpt{17}%
+    \abovedisplayskip 14\p@ \@plus3\p@ \@minus7\p@
+    \abovedisplayshortskip \z@ \@plus4\p@
+    \belowdisplayshortskip 7\p@ \@plus4\p@ \@minus3\p@
+    \belowdisplayskip \abovedisplayskip
+    \let\@listi\@listI
+}
+\normalsize
+\renewcommand{\small}{
+    % 12pt - optional small font
+    \@setfontsize\small\@xiipt{14.5}%
+    \abovedisplayskip 12\p@ \@plus3\p@ \@minus7\p@
+    \abovedisplayshortskip \z@ \@plus3\p@
+    \belowdisplayshortskip 6.5\p@ \@plus3.5\p@ \@minus3\p@
+    \def\@listi{\leftmargin\leftmargini
+        \topsep 9\p@ \@plus3\p@ \@minus5\p@
+        \parsep 4.5\p@ \@plus2\p@ \@minus\p@
+        \itemsep \parsep}%
+    \belowdisplayskip \abovedisplayskip
+}
+\newcommand{\moderate}{
+    % 16pt - medium font size
+    \@setfontsize\moderate{16}\@xxpt
+}
+\renewcommand{\large}{
+    % 18pt - large font size
+    \@setfontsize\large{18}{22}
+}
+\renewcommand{\Large}{
+    % 20pt - Large font size
+    \@setfontsize\Large\@xxpt{25}
+}
+\renewcommand{\LARGE}{
+    % 22pt - LARGE font size
+    \@setfontsize\LARGE{22}{27}
+}
+\renewcommand{\huge}{
+    % 24pt - huge font size
+    \@setfontsize\huge\@xxvpt{30}
+}
+\renewcommand{\Huge}{
+    % 36pt - Huge font size
+    \@setfontsize\Huge{35.83}{41}
+}
+
+%% reformat the chapters & sections
+% chapter-level
+\renewcommand{\chapter}{\thispagestyle{fancy}%
+    \global\@topnum\z@
+    \secdef\@chapter\@schapter
+}
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
+                         \addcontentsline{toc}{chapter}%
+                                   {\protect Chapter \numberline{\thechapter}#1}%
+                    \else
+                      \addcontentsline{toc}{chapter}{#1}%
+                    \fi
+                    \chaptermark{#1}%
+                    %\addtocontents{lof}{\protect\addvspace{10\p@}}% Remove blank spaces
+                    %\addtocontents{lot}{\protect\addvspace{10\p@}}%
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+% adjust spaces on top and bottom, change font size
+\def\@makechapterhead#1{%
+    \begin{center}%
+        \vspace*{0.5in}%
+        {\parindent \z@ \normalfont
+            \ifnum \c@secnumdepth >\m@ne
+                \large\bfseries \@chapapp\space \thechapter
+                \par\nobreak
+                \vskip 10\p@
+            \fi
+            \interlinepenalty\@M
+            \moderate \bfseries #1\par\nobreak
+            \vskip 21\p@
+        }
+    \end{center}
+}
+% change font size
+\def\@makeschapterhead#1{%
+    \begin{center}%
+        \vspace*{0.5in}%
+        {\parindent \z@
+            \normalfont
+            \interlinepenalty\@M
+            \Large \bfseries  #1\par\nobreak
+            \vskip 21\p@
+        }
+    \end{center}
+}
+
+% section-level
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\normalfont\moderate\bfseries}}
+
+% subsection-level
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\normalfont\normalsize\bfseries\leftskip 40pt}}
+
+%% modify TOC
+\renewcommand\contentsname{Table of Contents}
+\makeatletter
+\renewcommand\@dotsep{200}
+\makeatother
+
+\endinput
