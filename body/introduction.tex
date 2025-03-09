@@ -54,44 +54,29 @@ While being effective against generative ai and efficiently optimize hardware re
 \section{Target User}
 \label{section:target-user}
 
-The target user in a software project refers to the specific
-group or demographic of individuals for whom the software is designed and
-developed. Identifying the target user is a crucial step in the software
-development process as it helps the development team tailor the software to
-meet the needs, preferences, and requirements of that particular user group.
-Understanding the characteristics, behaviors, and expectations of the target
-users is essential for creating a user-friendly and effective software solution.
-
-Here are some key aspects related to defining the target user in a software project:
-
-Demographics: This includes factors such as age, gender,
-occupation, education level, and other demographic characteristics. Different
-age groups or professional backgrounds may have distinct preferences and
-requirements when it comes to software usability.
-
-Skill Level: Consideration of the users' technical proficiency and
-familiarity with similar software or technology. The level of technical expertise
-can influence the complexity of the user interface, the need for tutorials or
-documentation, and other user support features.
-
-Industry or Domain: For software solutions designed for specific
-industries or domains, understanding the unique challenges, workflows, and
-terminology within that industry is crucial. Tailoring the software to meet
-industry-specific needs is often necessary.
+\begin{itemize}
+    \item \textbf{Digital Content Creators \& Video Artists:} Professionals and amateurs (e.g., filmmakers, digital artists) concerned about AI scraping their work. Protractor ensures AI cannot accurately process their videos, preventing misuse.
+    
+    \item \textbf{Researchers in AI Security \& Adversarial Machine Learning:} AI ethics researchers and security analysts studying adversarial robustness. Since current AI poisoning methods mainly target images, Protractor provides a tool for testing adversarial perturbations in videos.
+    
+    \item \textbf{Legal and Copyright Protection Experts:} Media attorneys and digital rights organizations dealing with AI-generated deepfakes and content misuse. Protractor helps protect intellectual property from unauthorized AI training.
+    
+    \item \textbf{Industry Professionals in Media \& Entertainment:} Streaming platforms, game developers, and animation studios facing AI replication of artistic styles. Protractor’s poisoning techniques prevent AI from learning and mimicking their creative work.
+\end{itemize}
 
 \section{Benefit}
 \label{section:benefit}
 
-Describe potential benefits of your solution.
+The Protractor system protects video content from unauthorized AI training by applying adversarial 
+techniques that disrupt AI perception while remaining imperceptible to humans. It prevents AI from
+ accurately processing videos, reducing the risk of deepfake generation and unauthorized replication. 
+ This enhances intellectual property protection for creators and safeguards the creative industry 
+ from AI-driven content theft. Additionally, Protractor supports AI security research, helping 
+ experts study AI vulnerabilities in video poisoning. Its easy-to-use implementation allows content 
+ creators and researchers to apply AI poisoning without requiring advanced technical expertise.
 
 \section{Terminology}
 \label{section:terminology}
-
-Terminology refers to the specific language, jargon, or
-specialized vocabulary used to describe concepts, ideas, or subjects within a
-particular field or domain. The use of terminology is often essential for clarity
-and precision, especially in books that cover technical, scientific, academic, or
-specialized topics.
 
 \subsection{Background}
 \label{subsection:Background}
@@ -120,3 +105,17 @@ Data Poisoning
 Data Security
 datasets
 scraped
+
+Adversarial Attack: A method to manipulate AI models by adding small, unnoticeable changes that cause errors.
+
+Breaking Temporal Consistency (BTC-UAP): A technique that disrupts AI’s ability to track motion across video frames.
+
+Spatially Transformed Adversarial Attack (stAdv): Alters video structure to mislead AI while keeping it unchanged for humans.
+
+Deepfake: AI-generated fake media that manipulates video content realistically.
+
+AI Poisoning: Modifying data to mislead AI models and prevent accurate learning.
+
+Perceptual Similarity Metrics (LPIPS \& SSIM): Measures that compare AI and human perception of video similarity.
+
+Universal Adversarial Perturbation (UAP): Small changes in visuals that significantly affect AI recognition without altering human perception.
