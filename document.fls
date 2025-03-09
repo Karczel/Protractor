@@ -297,6 +297,9 @@ OUTPUT body\introduction.aux
 INPUT .\body\introduction.tex
 INPUT .\body\introduction.tex
 INPUT body\introduction.tex
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
@@ -385,9 +388,6 @@ INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT document.aux
 INPUT .\partials\cover.aux
 INPUT .\partials\cover.aux

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  9 MAR 2025 23:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.3.9)  10 MAR 2025 00:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -546,7 +546,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<assets/ku/symbol.png, id=155, 308.352pt x 308.352pt>
+<assets/ku/symbol.png, id=151, 308.352pt x 308.352pt>
 File: assets/ku/symbol.png Graphic file (type png)
 <use assets/ku/symbol.png>
 Package pdftex.def Info: assets/ku/symbol.png  used on input line 5.
@@ -674,7 +674,7 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 5
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 81--94
+Underfull \hbox (badness 10000) in paragraph at lines 79--92
 
  []
 
@@ -683,7 +683,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--94
 
  (body/relatedworks.tex
 Chapter 2.
-<./assets/examples/asana-competitive-landscape.jpg, id=267, 1806.75pt x 2047.65
+<./assets/examples/asana-competitive-landscape.jpg, id=262, 1806.75pt x 2047.65
 pt>
 File: ./assets/examples/asana-competitive-landscape.jpg Graphic file (type jpg)
 
@@ -706,7 +706,7 @@ Chapter 3.
 
 
 ]
-<./assets/examples/user-interface-design.png, id=276, 405.31425pt x 211.992pt>
+<./assets/examples/user-interface-design.png, id=271, 405.31425pt x 211.992pt>
 File: ./assets/examples/user-interface-design.png Graphic file (type png)
 <use ./assets/examples/user-interface-design.png>
 Package pdftex.def Info: ./assets/examples/user-interface-design.png  used on i
@@ -727,7 +727,7 @@ Chapter 4.
 
  (body/softwaredevelopment.tex
 Chapter 5.
-<./assets/examples/tech-stack.png, id=290, 613.54219pt x 613.54219pt>
+<./assets/examples/tech-stack.png, id=285, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
 Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 1
@@ -794,22 +794,22 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 31A214F9FB9CE97C1DA0D6D61EC8D6C1;5526.
+(rerunfilecheck)             Checksum: 9829141DA2BAB5839860B815CBEB2344;5414.
  ) 
 Here is how much of TeX's memory you used:
- 14591 strings out of 474486
- 252497 string characters out of 5743756
+ 14584 strings out of 474486
+ 252388 string characters out of 5743756
  1934542 words of memory out of 5000000
- 36269 multiletter control sequences out of 15000+600000
- 623338 words of font info for 250 fonts, out of 8000000 for 9000
+ 36266 multiletter control sequences out of 15000+600000
+ 623208 words of font info for 248 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1007b,611s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pf
 b><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
 b>
-Output written on document.pdf (28 pages, 1734742 bytes).
+Output written on document.pdf (28 pages, 1734481 bytes).
 PDF statistics:
- 371 PDF objects out of 1000 (max. 8388607)
- 78 named destinations out of 1000 (max. 500000)
- 82757 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 366 PDF objects out of 1000 (max. 8388607)
+ 77 named destinations out of 1000 (max. 500000)
+ 82749 words of extra memory for PDF output out of 89155 (max. 10000000)
 
