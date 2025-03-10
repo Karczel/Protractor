@@ -16,38 +16,54 @@ Data poisoning is a method of corrupting AI models by injecting misleading or ha
 \label{section:problem-statement}
 
 Problems from the invention of Video-output Generative AI
-
-1. Deepfake
-    1.1. Identity theft
-    1.2. Forgery of False Evidence of crimes
-    1.3. Defamation from non-consensual explicit generated video
-2. Grifters
-    2.1. Copyright Infringement
-    2.2. Dead internet theory 
+\begin{enumerate}
+    \item Deepfake\textsuperscript{[8]}
+    \begin{enumerate}
+        \item Identity theft\textsuperscript{[9]}
+        \item Forgery of False Evidence of crimes
+        \item Defamation from non-consensual explicit generated video
+    \end{enumerate}
+    
+    \item Grifters\textsuperscript{[16]}
+    \begin{enumerate}
+        \item Copyright Infringement\textsuperscript{[1]}
+        \item Dead internet theory\textsuperscript{[17]}
+    \end{enumerate}
+\end{enumerate}
 
 Technical Problems
 
-1. There is currently no existing video poisoning processor, but there is research on video poisoning tactics.
-2. Frame-by-Frame poisoning with static Image poisoning processor as an alternative.
-    2.1. Manually poisoning frame by frame is inconvenient for production use.
-    2.2. Processing time scales horribly with video duration and fps.
-    2.3. Static Image poisoning tactics is less effective against Video generative AI.
+\begin{enumerate}
+    \item Deepfake\textsuperscript{[8]}
+    \begin{enumerate}
+        \item Identity theft\textsuperscript{[9]}
+        \item Forgery of false evidence of crimes
+        \item Defamation from non-consensual explicit generated video
+    \end{enumerate}
+    
+    \item Grifters\textsuperscript{[16]}
+    \begin{enumerate}
+        \item Copyright infringement\textsuperscript{[1]}
+        \item Dead internet theory\textsuperscript{[17]}
+    \end{enumerate}
+\end{enumerate}
+
 
 \section{Solution Overview}
 \label{section:solution-overview}
 
 This software seeks to simplify the process of video poisoning to be as easy as a few clicks.
-We'd only need the user to inputing their video, set some preferences, start the process and wait for the poisoned video output in their designated folder.
-While being effective against generative ai and efficiently optimize hardware resources to process larger video; ranging from 5 minutes to 2 hours, to be processed fast and reliable enough for our target users such as filmmakers, content creators, and studios to incorporate this in their workflow. 
+We'd only need the user to input their video, set some preferences, start the process and wait for the poisoned video output in their designated folder\textsuperscript{[24]}.
+While being effective against generative AI and efficiently optimizing hardware resources\textsuperscript{[25]} to process larger video; ranging from 5 minutes to 2 hours, to be processed fast and reliable enough for our target users such as filmmakers\textsuperscript{[26]}, content creators\textsuperscript{[27]}, and studios\textsuperscript{[28]} to incorporate this in their workflow\textsuperscript{[29]}.
 
 \subsection{Features}
 \label{subsection:features}
 
 \begin{enumerate}[leftmargin=80pt]
     \item Video Input: Input your video to poison
-    \item Perturbation Settings: Set predefined Parameters such as perturbation weights or quality to set the perturbation strength and output quality. More parameters may be added depending on the available parameters of the system's poisoning methods.
+    \item Poisoning\textsuperscript{[30]} Settings: Set predefined Parameters such as perturbation weights\textsuperscript{[31]} or output quality\textsuperscript{[32]} to set the perturbation strength\textsuperscript{[33]} and output quality\textsuperscript{[32]}. More parameters may be added depending on the available parameters of the system's poisoning methods\textsuperscript{[34]}.
     \item Output folder: User can select where the output will be stored when the video poisoning process has finished.
-    \item Start Poisoning: Click to start the poisoning process. The process cannot be stopped while it is running until the process finishes.
+    \item Start Poisoning: Click to start the poisoning process\textsuperscript{[59]}. The process cannot be stopped while it is running until the process finishes.
     \item Hardware optimization: Optimize the available hardware to minimize processing time duration. This would be done automatically but may allow users to set hardware themselves if deemed appropriate.
 \end{enumerate}
 
@@ -55,22 +71,21 @@ While being effective against generative ai and efficiently optimize hardware re
 \label{section:target-user}
 
 \begin{itemize}
-    \item \textbf{Digital Content Creators \& Video Artists:} They have had their creations used as training data without their permission to replicate their work, making their creative, unique, curated work being buried amongst their AI copies that hurt their profits and fame.
-    \item \textbf{Industry Professionals in Media \& Entertainment:} Animation studios are at risk of having their creative works being exploited to create lower quality but faster animations. This could result in the death of the Animation industry altogether as Animator and other creatives being laid off after their works had been trained on AI and the audience ends up with an incoherent meaningless repetitive mediocre slop because the company thought that was good enough for the audience and artist become more distrustful of sharing their works online.
+    \item \textbf{Digital Content Creators \& Video Artists\textsuperscript{[35]}:} They have had their creations\textsuperscript{[36]} used as training data\textsuperscript{[37]} without their permission to replicate\textsuperscript{[38]} their work, making their creative, unique, curated\textsuperscript{[39]} work being buried amongst their AI copies that hurt their profits\textsuperscript{[40]} and fame\textsuperscript{[41]}.
+    \item \textbf{Industry Professionals in Media \& Entertainment\textsuperscript{[42]}:} Animation studios\textsuperscript{[43]} are at risk of having their creative works being exploited\textsuperscript{[44]} to create lower quality but faster animations. This could result in the death of the Animation industry\textsuperscript{[45]} altogether as Animator and other creatives being laid off after their works had been trained on AI and the audience ends up with an incoherent meaningless repetitive mediocre slop\textsuperscript{[46]} because the company thought that was good enough for the audience and artist become more distrustful of sharing their works online.
 
-    \item \textbf{Anti-AI social media platforms:} Cara, BlueSky, Teezr, VGen are against AI content on their platform. This could be part of their feature to protect their userbase’s video against being used to train on AI.
-    \item \textbf{Individuals who do not want their videos to be used to train generative AI:} From the dangers of deepfakes, regular people do not want their face to be used to train generative AI in General, but data scraping was done without their consent.
+    \item \textbf{Anti-AI social media platforms:} Cara, BlueSky, Teezr, VGen are against any AI-generated content\textsuperscript{[47]} on their platforms. This could be part of their feature to protect their userbase’s video against being used to train on AI.
+    \item \textbf{Individuals who do not want their videos to be used to train generative AI:} From the dangers of deepfakes\textsuperscript{[8]}, regular people do not want their face to be used to train generative AI in General, but data scraping was done without considering their consent. This will force data scrapers\textsuperscript{[48]} to exclude poisoned data\textsuperscript{[49]} from their training dataset\textsuperscript{[50]}.
 \end{itemize}
 
 \section{Benefit}
 \label{section:benefit}
-
-The Protractor system protects video content from unauthorized AI training by applying adversarial techniques that disrupt AI perception while remaining imperceptible to humans.
+The Protractor system protects video content from non-consensual AI training\textsuperscript{[51]} by applying adversarial techniques\textsuperscript{[52]} that disrupt AI perception while remaining imperceptible\textsuperscript{[53]} to humans.
 
 \begin{itemize}
-    \item It prevents AI from accurately processing videos, reducing the risk of deepfake generation and unauthorized replication. 
-    \item It enhances intellectual property protection for creators and safeguards the creative industry from AI-driven content theft.
-    \item Its easy-to-use implementation allows content creators and researchers to apply AI poisoning without requiring advanced technical expertise.
+    \item It breaks AI generated video quality and frame consistency\textsuperscript{[54]}, stopping deepfake from producing similar creations\textsuperscript{[55]}. 
+    \item It enhances intellectual property\textsuperscript{[56]} protection for creators and safeguards the creative industry from AI-driven content theft\textsuperscript{[57]}.
+    \item Its easy-to-use implementation allows everyone to apply AI poisoning\textsuperscript{[58]} without requiring advanced technical expertise.
 \end{itemize}
 
 \section{Terminology}
@@ -89,29 +104,47 @@ The Protractor system protects video content from unauthorized AI training by ap
 [10]misinformation : False or misleading information spread unintentionally or deliberately, often amplified by AI-generated content. \newline
 [11]fraud : Deceptive actions intended to achieve financial or personal gain, sometimes involving AI-generated media. \newline
 [12]political manipulation : The use of deceptive tactics, such as deepfakes or AI-generated propaganda, to influence public opinion or elections. \newline
-
-Deepfake
-
-Grifters
-
-Dead internet theory
-    genuine human interaction is overtaken by AI slop
-
-Data Poisoning
-Data Security
-datasets
-scraped
-
-Adversarial Attack: A method to manipulate AI models by adding small, unnoticeable changes that cause errors.
-
-Breaking Temporal Consistency (BTC-UAP): A technique that disrupts AI’s ability to track motion across video frames.
-
-Spatially Transformed Adversarial Attack (stAdv): Alters video structure to mislead AI while keeping it unchanged for humans.
-
-Deepfake: AI-generated fake media that manipulates video content realistically.
-
-AI Poisoning: Modifying data to mislead AI models and prevent accurate learning.
-
-Perceptual Similarity Metrics (LPIPS \& SSIM): Measures that compare AI and human perception of video similarity.
-
-Universal Adversarial Perturbation (UAP): Small changes in visuals that significantly affect AI recognition without altering human perception.
+[16]Grifters : People who try to get you in get-rich-quick schemes that turned out to be a total waste of time.\newline
+[17]Dead internet theory : A conspiracy introduced by IlluminatiPirate on the forum Agora Road's Macintosh Cafe esoteric board. Referring to the future where genuine human interaction is overtaken by bots and AI generated content due to the sheer amount and available.\newline
+[18]video poisoning processor : Refer to a program that adds “AI poison” to the input video\newline
+[19]poisoning tactics : The tactics of poisoning a graphics content that break AI when it trained on the poisoned piece of media content \newline
+[20]static Image poisoning processor : Refer to a program that adds “AI poison” to the input non-moving image.\newline
+[21]Processing time : The time it takes to finish processing; in this case finish poisoning the input graphics.\newline
+[22]scales : increase along with/due to. ex., your weight scales up with your body size.\newline
+[23]fps : Abbreviation of ‘Frame rate Per Second’. It is how many different frames are in a second of a video.\newline
+[24]designated folder : Selected folder for a purpose\newline
+[25]hardware resources : Your electronic device’s components, ex. CPU, GPU, SSD\newline
+[26]filmmakers : People who create films or movies.\newline
+[27]content creators : People who create online content on online media platforms, specifically video content for this book.\newline
+[28]studios : Referring to studios where people come together to produce video content as a company or recognized group.\newline
+[29]workflow : The routine or protocol steps to do to finish work. As the work’s product becomes more complex, a workflow routine or protocol is required to produce content consistently while still maintaining or improving the product’s quality.
+[30]Poisoning : The process of ‘poisoning’ the input to make it break AI models when trained on, which will increase with the percentage of poisoned works in the dataset.\newline
+[31]perturbation weights : perturbation is added via a formula (x + x’ = p; x is the original input, x’ is the perturbation and p is the poisoned output, x’ could be w*noise where w is weight and noise is the graphic of a randomized RGB image designed to make AI perform worse through computer vision) and added to the original image through the RGB channel of the original image.
+[32]output quality : The quality of the output after the input had been poisoned\newline
+[33]perturbation strength : How obvious the perturbation is in the poisoned output\newline
+[34]poisoning methods : methods to ‘poison’ an image\newline
+[35]Video Artists : Any artist that create video content, like animators or illustrator art timelapse where they post the process of creating their art\newline
+[36]creations : Referring to videos that are the product they created\newline
+[37]training data : data that AI trains on\newline
+[38]replicate : to recreate\newline
+[39]curated : specifically crafted or chosen for someone\newline
+[40]profits : For the owner of the video, they may get their profits through commissions, platform revenue, merchandise, etc. Their profits are hurt because an AI copy could steal their originality, hard work or recommendation spots that would pay them.\newline
+[41]fame : Refer to how many people know their brand as an artist\newline
+[42]Industry Professionals in Media and Entertainment : Refer to any creatives who work in the Media and Entertainment industry.\newline
+[43]Animation studios : Studio that create Animation(s) as their product\newline
+[44]exploited : Taken advantage of unfairly\newline
+[45]the death of the Animation industry : As the animation industry’s jobs become unstable and at risk of being replaced by AI, either the next generation of workers have to sacrifice their limited resources to compete with the availability and speed (but lack of quality) of AI, or perish. As their investors and customers use AI instead for cheaper, faster work. Jobs that could be the transition role for newbies to developing the skills of a professional are being replaced by AI, which means that there’s going to be less to no senior professional to pass the job on.\newline
+[46]slop : low quality content that’s mediocre at best, but usually not good enough to provide any meaningful value to the consumer.\newline
+[47]AI-generated content : Content created from AI generation via a prompt or an input image\newline
+[48]data scrapers : Refer to entity that perform data scraping to collect data for any use\newline
+[49]poisoned data : data that has been ‘poisoned’ that will break the AI when it was trained on.\newline
+[50]training dataset : dataset AI trains on. A collection of data into a format ready for AI to train, like image-word pair dataset.\newline
+[51]non-consensual AI training : Refer to how AI trains on data without the data’s owner consent.\newline
+[52]adversarial techniques : A data poisoning tactic where they change the data material to encourage AI to learn false patterns during backpropagation, while maintaining the perceptual similarity to the original work.\newline
+[53]imperceptible : Undetectable with the human eye\newline
+[54]frame consistency : How video graphics make sense between the previous, current and next frame. Low frame consistency means the video is flick-ery and objects and details appear and disappear more unpredictably.\newline
+[55]similar creations : Creative products that looks similar in style or appearance\newline
+[56]intellectual property : Legal rights that protect creations of the mind, such as art, music, inventions, patents, trademarks, and copyrights.\newline
+[57]AI-driven content theft : Unauthorized use or replication of copyrighted materials by AI systems. It is a copyright infringement\newline
+[58]AI poisoning : AI poisoning (also known as data poisoning) is a method used to corrupt or manipulate machine learning models by introducing misleading or harmful data.\newline
+[59]poisoning process : The process of ‘poisoning’ the input against AI\newline
