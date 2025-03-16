@@ -14,27 +14,27 @@
 \contentsline {section}{\numberline {1.5}Benefit}{4}{section.1.5}%
 \contentsline {section}{\numberline {1.6}Terminology}{5}{section.1.6}%
 \contentsline {chapter}{Chapter \hbox to\@tempdima {2\hfil }\leftprotrusion Literature Review and Related Work}{9}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Competitor Analysis}{9}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Literature Review}{9}{section.2.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {3\hfil }\leftprotrusion Requirement Analysis}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Stakeholder Analysis}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}User Stories}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Use Case Diagram}{11}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Use Case Model}{11}{section.3.4}%
-\contentsline {section}{\numberline {3.5}User Interface Design}{12}{section.3.5}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Domain Model}{13}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Design Class Diagram}{13}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Sequence Diagram}{13}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Algorithm}{14}{section.4.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{15}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Software Development Methodology}{15}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Technology Stack}{15}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Coding Standards}{16}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Progress Tracking Report}{16}{section.5.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Solution}{17}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test Report}{17}{section.6.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{18}{chapter.7}%
-\contentsline {chapter}{Appendix A: Example}{22}{chapter*.7}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{24}{chapter*.8}%
+\contentsline {section}{\numberline {2.1}Competitor Analysis}{10}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Literature Review}{13}{section.2.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {3\hfil }\leftprotrusion Requirement Analysis}{16}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Stakeholder Analysis}{16}{section.3.1}%
+\contentsline {section}{\numberline {3.2}User Stories}{16}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Use Case Diagram}{16}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Use Case Model}{16}{section.3.4}%
+\contentsline {section}{\numberline {3.5}User Interface Design}{17}{section.3.5}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Domain Model}{18}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Design Class Diagram}{18}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Sequence Diagram}{18}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Algorithm}{19}{section.4.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{20}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Software Development Methodology}{20}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Technology Stack}{20}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Coding Standards}{21}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Progress Tracking Report}{21}{section.5.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{22}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Solution}{22}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test Report}{22}{section.6.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{23}{chapter.7}%
+\contentsline {chapter}{Appendix A: Example}{27}{chapter*.7}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{29}{chapter*.8}%
