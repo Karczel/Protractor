@@ -15,7 +15,9 @@ Data poisoning is a method of corrupting AI models by injecting misleading or ha
 \section{Problem Statement}
 \label{section:problem-statement}
 
-Problems from the invention of Video-output Generative AI
+\subsection{Problems from the invention of Video-output Generative AI}
+\label{subsection:Problems-From-Video-AI}
+
 \begin{enumerate}
     \item Deepfake\textsuperscript{[8]}
     \begin{enumerate}
@@ -31,20 +33,16 @@ Problems from the invention of Video-output Generative AI
     \end{enumerate}
 \end{enumerate}
 
-Technical Problems
+\subsection{Technical Problems}
+\label{subsection:Technical-Problems}
 
 \begin{enumerate}
-    \item Deepfake\textsuperscript{[8]}
+    \item There is currently no existing video poisoning processor\textsuperscript{[18]}, but there is research on video poisoning tactics\textsuperscript{[19]}.
+    \item Frame-by-Frame poisoning with static Image poisoning processor\textsuperscript{[20]} as an alternative.
     \begin{enumerate}
-        \item Identity theft\textsuperscript{[9]}
-        \item Forgery of false evidence of crimes
-        \item Defamation from non-consensual explicit generated video
-    \end{enumerate}
-    
-    \item Grifters\textsuperscript{[16]}
-    \begin{enumerate}
-        \item Copyright infringement\textsuperscript{[1]}
-        \item Dead internet theory\textsuperscript{[17]}
+        \item Manually poisoning frame by frame is inconvenient for production use.
+        \item Processing time\textsuperscript{[21]} scales\textsuperscript{[22]} horribly with video duration and fps\textsuperscript{[23]}.
+        \item Static Image poisoning tactics are less effective against Video generative AI.
     \end{enumerate}
 \end{enumerate}
 
