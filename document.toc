@@ -19,11 +19,10 @@
 \contentsline {chapter}{Chapter \hbox to\@tempdima {3\hfil }\leftprotrusion Requirement Analysis}{16}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Stakeholder Analysis}{16}{section.3.1}%
 \contentsline {section}{\numberline {3.2}User Stories}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Protecting Video Content from AI Training}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.1}Upload \& Protecting Video Content from AI Training}{16}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Ensuring Video Quality for Human Viewers}{16}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Uploading Videos for AI Poisoning}{17}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Processing Videos Efficiently}{17}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Monitoring Poisoning Progress}{17}{subsection.3.2.5}%
+\contentsline {subsection}{\numberline {3.2.3}Processing Videos Efficiently}{17}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Monitoring Poisoning Progress}{17}{subsection.3.2.4}%
 \contentsline {section}{\numberline {3.3}Use Case Diagram}{17}{section.3.3}%
 \contentsline {section}{\numberline {3.4}Use Case Model}{17}{section.3.4}%
 \contentsline {section}{\numberline {3.5}User Interface Design}{18}{section.3.5}%
