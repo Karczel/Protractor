@@ -10,6 +10,12 @@
     \textbf{\textit{I want to}} #3,\\
     \textbf{\textit{so that}} #4.
 }
+\newenvironment{usecase}[1]
+{
+    \refstepcounter{nusecase}%
+    \subsection{Use Case \thenusecase: #1}%
+    \label{usecase:\thenusecase}%
+}{}
 
 \chapter{Requirement Analysis}
 \label{chap:requirement-analysis}
@@ -53,20 +59,83 @@
 
 \section{Use Case Diagram}
 \label{section:use-case-diagram}
-<TIP: Write a use case diagram for your project here. Refer to an
-article “What is a use case diagram?” by Lucidchart for help./>
+
+\begin{itemize}
+    \item \textbf{\textit{User}}---A default group of users which has all the basic functionalities
+\end{itemize}
+
 
 \section{Use Case Model}
 \label{section:use-case-model}
-A use case is a detailed description of how a system
-interacts with an external entity (such as a user or another system) to
-accomplish a specific goal. Use cases provide a high-level view of the
-functionality of a system and help in capturing and documenting its
-requirements from the perspective of end users.
 
-<TIP: Write use cases for your project here. Make sure to use the
-appropriate type of use case for each scenario (brief, casual, and fully-dressed
-use case)./>
+\begin{usecase}{Uploading a Video}
+    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Alex wants to upload a video file to the system in preparation for poisoning.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Alex opens the Protractor web application.
+        \item System displays the upload interface.
+        \item Alex selects a supported video format file and clicks the upload button.
+        \item System validates the file and stores it for processing.
+    \end{enumerate}
+    \textbf{Alternative Flow:} If the file type is unsupported, the system displays an error message.
+\end{usecase}
+
+\begin{usecase}{Setting Poisoning Parameters}
+    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Alex customizes the poisoning settings before starting the video poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Alex navigates to the settings panel after uploading a video.
+        \item System displays available poisoning parameters.
+        \item Alex selects the settings.
+        \item System saves the selected configuration for use in the next step.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Starting the Poisoning Process}
+    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} After configuring the parameters, Alex starts the video poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Alex clicks the "Start Poisoning" button.
+        \item System begins poisoning the video.
+        \item System displays a progress indicator or loading bar.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Viewing the Poisoning Progress}
+    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Alex wants to track the real-time progress of the poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item System updates a progress indicator as frames are processed.
+        \item Alex monitors the process status.
+        \item Once complete, the system notifies Alex that the video is ready.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Downloading the Poisoned Video}
+    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Alex downloads the final poisoned video file to their device.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item The system displays a "Download" button once poisoning is complete.
+        \item Alex clicks the button to download the poisoned video.
+        \item System sends the processed file to Alex’s device.
+    \end{enumerate}
+\end{usecase}
+
 
 \section{User Interface Design}
 \label{section:user-interface-design}
