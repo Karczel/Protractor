@@ -69,70 +69,70 @@
 \label{section:use-case-model}
 
 \begin{usecase}{Uploading a Video}
-    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
 
-    \textbf{Description:} Alex wants to upload a video file to the system in preparation for poisoning.
+    \textbf{Description:} Pong wants to upload a video file to the system in preparation for poisoning.
 
     \textbf{Scenario:}
     \begin{enumerate}[leftmargin=80pt]
-        \item Alex opens the Protractor web application.
+        \item Pong opens the Protractor web application.
         \item System displays the upload interface.
-        \item Alex selects a supported video format file and clicks the upload button.
+        \item Pong selects a supported video format file and clicks the upload button.
         \item System validates the file and stores it for processing.
     \end{enumerate}
     \textbf{Alternative Flow:} If the file type is unsupported, the system displays an error message.
 \end{usecase}
 
 \begin{usecase}{Setting Poisoning Parameters}
-    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
 
-    \textbf{Description:} Alex customizes the poisoning settings before starting the video poisoning process.
+    \textbf{Description:} Pong customizes the poisoning settings before starting the video poisoning process.
 
     \textbf{Scenario:}
     \begin{enumerate}[leftmargin=80pt]
-        \item Alex navigates to the settings panel after uploading a video.
+        \item Pong navigates to the settings panel after uploading a video.
         \item System displays available poisoning parameters.
-        \item Alex selects the settings.
+        \item Pong selects the settings.
         \item System saves the selected configuration for use in the next step.
     \end{enumerate}
 \end{usecase}
 
 \begin{usecase}{Starting the Poisoning Process}
-    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
 
-    \textbf{Description:} After configuring the parameters, Alex starts the video poisoning process.
+    \textbf{Description:} After configuring the parameters, Pong starts the video poisoning process.
 
     \textbf{Scenario:}
     \begin{enumerate}[leftmargin=80pt]
-        \item Alex clicks the "Start Poisoning" button.
+        \item Pong clicks the "Start Poisoning" button.
         \item System begins poisoning the video.
         \item System displays a progress indicator or loading bar.
     \end{enumerate}
 \end{usecase}
 
 \begin{usecase}{Viewing the Poisoning Progress}
-    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
 
-    \textbf{Description:} Alex wants to track the real-time progress of the poisoning process.
+    \textbf{Description:} Pong wants to track the progress of the poisoning process.
 
     \textbf{Scenario:}
     \begin{enumerate}[leftmargin=80pt]
-        \item System updates a progress indicator as frames are processed.
-        \item Alex monitors the process status.
-        \item Once complete, the system notifies Alex that the video is ready.
+        \item System updates a progress are processed.
+        \item Pong monitors the process status.
+        \item Once complete, the system notifies Pong that the video is ready.
     \end{enumerate}
 \end{usecase}
 
 \begin{usecase}{Downloading the Poisoned Video}
-    \textbf{Actors:} Alex (Digital Content Creator), Protractor (System)
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
 
-    \textbf{Description:} Alex downloads the final poisoned video file to their device.
+    \textbf{Description:} Pong downloads the final poisoned video file to their device.
 
     \textbf{Scenario:}
     \begin{enumerate}[leftmargin=80pt]
         \item The system displays a "Download" button once poisoning is complete.
-        \item Alex clicks the button to download the poisoned video.
-        \item System sends the processed file to Alex’s device.
+        \item Pong clicks the button to download the poisoned video.
+        \item System sends the processed file to Pong’s device.
     \end{enumerate}
 \end{usecase}
 
