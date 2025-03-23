@@ -10,19 +10,6 @@
     \textbf{\textit{I want to}} #3,\\
     \textbf{\textit{so that}} #4.
 }
-
-\newcounter{nuserstory}
-\newcounter{nusecase}
-
-\newcommand{\userstory}[4]{%
-    \refstepcounter{nuserstory}
-    \subsection{#1}
-    \label{userstory:\thenuserstory}
-    \hangindent=40pt
-    \textbf{\textit{As a}} #2,\\
-    \textbf{\textit{I want to}} #3,\\
-    \textbf{\textit{so that}} #4.
-}
 \newenvironment{usecase}[1]
 {
     \refstepcounter{nusecase}%
@@ -35,25 +22,53 @@
 
 \section{Stakeholder Analysis}
 \label{section:stakeholder-analysis}
-<TIP: List your stakeholders for your project here/>
 
-Stakeholders are individuals, groups, or entities that
-have an interest, concern, or stake in a particular project, decision,
-organization, or system. These are individuals or groups who can affect or be
-affected by the outcomes of your project.
+\begin{enumerate}[leftmargin=80pt]
+    \item \textbf{Animators \& Video Artists:} The primary stakeholders are content creators and 
+    video artists who want to protect their work from unauthorized AI training.
+    \item \textbf{Regulatory \& Legal Bodies:} Government and industry groups ensuring 
+    compliance with copyright laws, AI ethics, and intellectual property protection.
+    \item \textbf{Cybersecurity \& Digital Rights Organizations:} Groups that focus on copyright protection, 
+    AI misuse prevention, and ethical AI practices. They may promote or validate the effectiveness of Protractor.
+
+\end{enumerate}
 
 \section{User Stories}
 \label{section:user-stories}
-<TIP: Write user stories for each of your stakeholders here./>
 
-User stories are a technique used in agile software
-development to capture and describe functional requirements from an end
-user's perspective. They are a way of expressing software features or
-functionality in a simple, non-technical language that can be easily understood
-by both developers and stakeholders.
+\userstory{Upload \& Protecting Video Content from AI Training%
+}{digital content creator or video artist%
+}{apply adversarial techniques to my videos to prevent AI models from copying my style%
+}{I can protect my work from unauthorized AI training while keeping the video unchanged for humans}
+
+\userstory{Ensuring Video Quality for Human Viewers%
+}{digital content creator or video artist%
+}{apply AI poisoning techniques without affecting the video’s visual quality for humans%
+}{my audience can still enjoy my videos without noticeable distortions}
+
+\userstory{Customizing Poisoning Parameters%
+}{digital content creator or video artist%
+}{adjust the poisoning settings such as intensity level and render quality before starting the process%
+}{I can control how strongly the video is protected while balancing quality and performance}
+
+\userstory{Processing Videos Efficiently%
+}{content creator with large video files%
+}{have my videos processed quickly without long waiting times%
+}{I can protect my videos without delays affecting my workflow}
+
+\userstory{Monitoring Poisoning Progress%
+}{user waiting for video processing to complete%
+}{see real-time updates on the status of my video poisoning%
+}{I know how long the process will take and when my video will be ready}
+
 
 \section{Use Case Diagram}
 \label{section:use-case-diagram}
+
+\begin{itemize}
+    \item \textbf{\textit{User}}---A default group of users which has all the basic functionalities
+\end{itemize}
+
 
 \begin{itemize}
     \item \textbf{\textit{User}}---A default group of users which has all the basic functionalities
