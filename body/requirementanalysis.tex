@@ -10,6 +10,12 @@
     \textbf{\textit{I want to}} #3,\\
     \textbf{\textit{so that}} #4.
 }
+\newenvironment{usecase}[1]
+{
+    \refstepcounter{nusecase}%
+    \subsection{Use Case \thenusecase: #1}%
+    \label{usecase:\thenusecase}%
+}{}
 
 \chapter{Requirement Analysis}
 \label{chap:requirement-analysis}
@@ -18,15 +24,19 @@
 \label{section:stakeholder-analysis}
 
 \begin{enumerate}[leftmargin=80pt]
-    \item \textbf{Animators \& Video Editors:} The primary stakeholders are content creators and 
+    \item \textbf{Animators \& Video Artists:} The primary stakeholders are content creators and 
     video artists who want to protect their work from unauthorized AI training.
+    \item \textbf{Regulatory \& Legal Bodies:} Government and industry groups ensuring 
+    compliance with copyright laws, AI ethics, and intellectual property protection.
+    \item \textbf{Cybersecurity \& Digital Rights Organizations:} Groups that focus on copyright protection, 
+    AI misuse prevention, and ethical AI practices. They may promote or validate the effectiveness of Protractor.
 
 \end{enumerate}
 
 \section{User Stories}
 \label{section:user-stories}
 
-\userstory{Protecting Video Content from AI Training%
+\userstory{Upload \& Protecting Video Content from AI Training%
 }{digital content creator or video artist%
 }{apply adversarial techniques to my videos to prevent AI models from copying my style%
 }{I can protect my work from unauthorized AI training while keeping the video unchanged for humans}
@@ -36,10 +46,10 @@
 }{apply AI poisoning techniques without affecting the video’s visual quality for humans%
 }{my audience can still enjoy my videos without noticeable distortions}
 
-\userstory{Uploading Videos for AI Poisoning%
-}{any user who wants to protect their video from AI%
-}{upload my video to the system%
-}{I can have my content processed and protected}
+\userstory{Customizing Poisoning Parameters%
+}{digital content creator or video artist%
+}{adjust the poisoning settings such as intensity level and render quality before starting the process%
+}{I can control how strongly the video is protected while balancing quality and performance}
 
 \userstory{Processing Videos Efficiently%
 }{content creator with large video files%
@@ -54,20 +64,83 @@
 
 \section{Use Case Diagram}
 \label{section:use-case-diagram}
-<TIP: Write a use case diagram for your project here. Refer to an
-article “What is a use case diagram?” by Lucidchart for help./>
+
+\begin{itemize}
+    \item \textbf{\textit{User}}---A default group of users which has all the basic functionalities
+\end{itemize}
+
 
 \section{Use Case Model}
 \label{section:use-case-model}
-A use case is a detailed description of how a system
-interacts with an external entity (such as a user or another system) to
-accomplish a specific goal. Use cases provide a high-level view of the
-functionality of a system and help in capturing and documenting its
-requirements from the perspective of end users.
 
-<TIP: Write use cases for your project here. Make sure to use the
-appropriate type of use case for each scenario (brief, casual, and fully-dressed
-use case)./>
+\begin{usecase}{Uploading a Video}
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Pong wants to upload a video file to the system in preparation for poisoning.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Pong opens the Protractor web application.
+        \item System displays the upload interface.
+        \item Pong selects a supported video format file and clicks the upload button.
+        \item System validates the file and stores it for processing.
+    \end{enumerate}
+    \textbf{Alternative Flow:} If the file type is unsupported, the system displays an error message.
+\end{usecase}
+
+\begin{usecase}{Setting Poisoning Parameters}
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Pong customizes the poisoning settings before starting the video poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Pong navigates to the settings panel after uploading a video.
+        \item System displays available poisoning parameters.
+        \item Pong selects the settings.
+        \item System saves the selected configuration for use in the next step.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Starting the Poisoning Process}
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} After configuring the parameters, Pong starts the video poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item Pong clicks the "Start Poisoning" button.
+        \item System begins poisoning the video.
+        \item System displays a progress indicator or loading bar.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Viewing the Poisoning Progress}
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Pong wants to track the progress of the poisoning process.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item System updates a progress are processed.
+        \item Pong monitors the process status.
+        \item Once complete, the system notifies Pong that the video is ready.
+    \end{enumerate}
+\end{usecase}
+
+\begin{usecase}{Downloading the Poisoned Video}
+    \textbf{Actors:} Pong (Digital Content Creator), Protractor (System)
+
+    \textbf{Description:} Pong downloads the final poisoned video file to their device.
+
+    \textbf{Scenario:}
+    \begin{enumerate}[leftmargin=80pt]
+        \item The system displays a "Download" button once poisoning is complete.
+        \item Pong clicks the button to download the poisoned video.
+        \item System sends the processed file to Pong’s device.
+    \end{enumerate}
+\end{usecase}
+
 
 \section{User Interface Design}
 \label{section:user-interface-design}
