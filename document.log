@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  23 MAR 2025 17:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  24 MAR 2025 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -784,7 +784,7 @@ Chapter 2.
 
 
 ]
-<./assets/chapter_2/competitors/competitive-analysis.png, id=359, 803.0pt x 113
+<./assets/chapter_2/competitors/competitive-analysis.png, id=353, 803.0pt x 113
 5.24126pt>
 File: ./assets/chapter_2/competitors/competitive-analysis.png Graphic file (typ
 e png)
@@ -797,73 +797,46 @@ g  used on input line 16.
 [11
 
  <./assets/chapter_2/competitors/competitive-analysis.png>]
-<./assets/chapter_2/competitors/Glaze_logo.png, id=366, 256.96pt x 101.37875pt>
-
-File: ./assets/chapter_2/competitors/Glaze_logo.png Graphic file (type png)
-<use ./assets/chapter_2/competitors/Glaze_logo.png>
-Package pdftex.def Info: ./assets/chapter_2/competitors/Glaze_logo.png  used on
- input line 32.
-(pdftex.def)             Requested size: 209.12683pt x 82.50769pt.
-<./assets/chapter_2/competitors/MIST_logo.png, id=367, 54.9553pt x 31.61812pt>
-File: ./assets/chapter_2/competitors/MIST_logo.png Graphic file (type png)
-<use ./assets/chapter_2/competitors/MIST_logo.png>
-Package pdftex.def Info: ./assets/chapter_2/competitors/MIST_logo.png  used on 
-input line 43.
-(pdftex.def)             Requested size: 209.12683pt x 120.32372pt.
-<./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg, id=368, 1250.6725pt
+<./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg, id=360, 1250.6725pt
  x 947.54pt>
 File: ./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg Graphic file (t
 ype jpg)
 <use ./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg>
 Package pdftex.def Info: ./assets/chapter_2/competitors/Anti-DreamBooth_sample.
-jpg  used on input line 53.
+jpg  used on input line 40.
 (pdftex.def)             Requested size: 209.12683pt x 158.43379pt.
 
 
 [12
 
- <./assets/chapter_2/competitors/Glaze_logo.png> <./assets/chapter_2/competitor
-s/MIST_logo.png>]
-<./assets/chapter_2/competitors/ART.png, id=377, 468.75125pt x 218.8175pt>
-File: ./assets/chapter_2/competitors/ART.png Graphic file (type png)
-<use ./assets/chapter_2/competitors/ART.png>
-Package pdftex.def Info: ./assets/chapter_2/competitors/ART.png  used on input 
-line 63.
-(pdftex.def)             Requested size: 209.12683pt x 97.62222pt.
-
-Underfull \vbox (badness 2735) has occurred while \output is active []
-
-
-
-[13 <./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg (PNG copy)> <./a
-ssets/chapter_2/competitors/ART.png>]
-<./assets/chapter_2/research/stAdv.png, id=385, 368.1253pt x 144.54pt>
+ <./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg (PNG copy)>]
+<./assets/chapter_2/research/stAdv.png, id=368, 368.1253pt x 144.54pt>
 File: ./assets/chapter_2/research/stAdv.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv.png  used on input l
-ine 82.
+ine 63.
 (pdftex.def)             Requested size: 209.12683pt x 82.11295pt.
-<./assets/chapter_2/research/stAdv_with_LPIPS.png, id=386, 255.20343pt x 114.42
+<./assets/chapter_2/research/stAdv_with_LPIPS.png, id=369, 255.20343pt x 114.42
 75pt>
 File: ./assets/chapter_2/research/stAdv_with_LPIPS.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv_with_LPIPS.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv_with_LPIPS.png  used
- on input line 90.
+ on input line 71.
 (pdftex.def)             Requested size: 209.12683pt x 93.77179pt.
-<./assets/chapter_2/research/stAdv_results.png, id=387, 371.13657pt x 249.93375
+<./assets/chapter_2/research/stAdv_results.png, id=370, 371.13657pt x 249.93375
 pt>
 File: ./assets/chapter_2/research/stAdv_results.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv_results.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv_results.png  used on
- input line 98.
+ input line 79.
 (pdftex.def)             Requested size: 209.12683pt x 140.83527pt.
-<./assets/chapter_2/research/stAdv_against_other.png, id=388, 371.13657pt x 274
+<./assets/chapter_2/research/stAdv_against_other.png, id=371, 371.13657pt x 274
 .77657pt>
 File: ./assets/chapter_2/research/stAdv_against_other.png Graphic file (type pn
 g)
 <use ./assets/chapter_2/research/stAdv_against_other.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv_against_other.png  u
-sed on input line 104.
+sed on input line 85.
 (pdftex.def)             Requested size: 209.12683pt x 154.83395pt.
 
 
@@ -874,28 +847,28 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-[14 <./assets/chapter_2/research/stAdv.png> <./assets/chapter_2/research/stAdv_
+[13 <./assets/chapter_2/research/stAdv.png> <./assets/chapter_2/research/stAdv_
 with_LPIPS.png>]
 
-[15 <./assets/chapter_2/research/stAdv_results.png> <./assets/chapter_2/researc
+[14 <./assets/chapter_2/research/stAdv_results.png> <./assets/chapter_2/researc
 h/stAdv_against_other.png>]
-<./assets/chapter_2/research/BTC-UAP.png, id=402, 462.97969pt x 138.5175pt>
+<./assets/chapter_2/research/BTC-UAP.png, id=386, 462.97969pt x 138.5175pt>
 File: ./assets/chapter_2/research/BTC-UAP.png Graphic file (type png)
 <use ./assets/chapter_2/research/BTC-UAP.png>
 Package pdftex.def Info: ./assets/chapter_2/research/BTC-UAP.png  used on input
- line 114.
+ line 95.
 (pdftex.def)             Requested size: 209.12683pt x 62.56902pt.
-<./assets/chapter_2/research/Temporal_consistency_results.png, id=403, 235.6303
+<./assets/chapter_2/research/Temporal_consistency_results.png, id=387, 235.6303
 1pt x 144.54pt>
 File: ./assets/chapter_2/research/Temporal_consistency_results.png Graphic file
  (type png)
 <use ./assets/chapter_2/research/Temporal_consistency_results.png>
 Package pdftex.def Info: ./assets/chapter_2/research/Temporal_consistency_resul
-ts.png  used on input line 124.
+ts.png  used on input line 105.
 (pdftex.def)             Requested size: 209.12683pt x 128.28288pt.
 )
 
-[16
+[15
 
  <./assets/chapter_2/research/BTC-UAP.png> <./assets/chapter_2/research/Tempora
 l_consistency_results.png>]
@@ -908,7 +881,7 @@ l_consistency_results.png>]
 Chapter 3.
 
 
-[17
+[16
 
 
 
@@ -917,10 +890,10 @@ Underfull \vbox (badness 1253) has occurred while \output is active []
 
 
 
-[18]
+[17]
 
-[19]
-<./assets/examples/user-interface-design.png, id=444, 405.31425pt x 211.992pt>
+[18]
+<./assets/examples/user-interface-design.png, id=428, 405.31425pt x 211.992pt>
 File: ./assets/examples/user-interface-design.png Graphic file (type png)
 <use ./assets/examples/user-interface-design.png>
 Package pdftex.def Info: ./assets/examples/user-interface-design.png  used on i
@@ -928,9 +901,9 @@ nput line 153.
 (pdftex.def)             Requested size: 334.60422pt x 175.00552pt.
 
 
-[20])
+[19])
 
-[21 <./assets/examples/user-interface-design.png>]
+[20 <./assets/examples/user-interface-design.png>]
 \openout2 = `body/softwarearchitecture.aux'.
 
 
@@ -938,18 +911,18 @@ nput line 153.
 Chapter 4.
 
 
-[22
+[21
 
 
 
 ])
 
-[23]
+[22]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (body/softwaredevelopment.tex
 Chapter 5.
-<./assets/examples/tech-stack.png, id=474, 613.54219pt x 613.54219pt>
+<./assets/examples/tech-stack.png, id=457, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
 Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 1
@@ -960,20 +933,20 @@ Underfull \vbox (badness 1168) has occurred while \output is active []
 
 
 
-[24
+[23
 
 
 
  <./assets/examples/tech-stack.png>])
 
-[25]
+[24]
 \openout2 = `body/deliverable.aux'.
 
  (body/deliverable.tex
 Chapter 6.
 )
 
-[26
+[25
 
 
 
@@ -984,19 +957,19 @@ Chapter 6.
 Chapter 7.
 )
 
-[27
+[26
 
 
 
 ] (common/onetextpage.tex)
 
-[28
+[27
 
 
 
 ] (document.bbl)
 
-[29
+[28
 
 ]
 \openout2 = `body/appendices.aux'.
@@ -1005,16 +978,16 @@ Chapter 7.
 \c@nappendix=\count300
 
 
-[30
+[29
 
+
+]
+
+[30
 
 ]
 
 [31
-
-]
-
-[32
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -1023,7 +996,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 )
 
-[33
+[32
 
 ] (document.aux (partials/cover.aux) (partials/innercover.aux)
 (body/abstract.aux) (body/acknowledgement.aux) (body/introduction.aux)
@@ -1038,10 +1011,10 @@ Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: E1A6C33CF2BA6A595966600591E954A6;8050.
  ) 
 Here is how much of TeX's memory you used:
- 14949 strings out of 473523
- 260198 string characters out of 5714630
+ 14918 strings out of 473523
+ 258890 string characters out of 5714630
  680108 words of memory out of 5000000
- 37440 multiletter control sequences out of 15000+600000
+ 37413 multiletter control sequences out of 15000+600000
  630015 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1007b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1049,9 +1022,9 @@ Here is how much of TeX's memory you used:
 b><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.p
 fb><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.p
 fb>
-Output written on document.pdf (41 pages, 3707922 bytes).
+Output written on document.pdf (40 pages, 3669747 bytes).
 PDF statistics:
- 574 PDF objects out of 1000 (max. 8388607)
- 148 named destinations out of 1000 (max. 500000)
- 86975 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 556 PDF objects out of 1000 (max. 8388607)
+ 144 named destinations out of 1000 (max. 500000)
+ 86960 words of extra memory for PDF output out of 89155 (max. 10000000)
 
