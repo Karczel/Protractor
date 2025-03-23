@@ -381,6 +381,9 @@ OUTPUT body\requirementanalysis.aux
 INPUT .\body\requirementanalysis.tex
 INPUT .\body\requirementanalysis.tex
 INPUT body\requirementanalysis.tex
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\assets\examples\user-interface-design.png
 INPUT .\assets\examples\user-interface-design.png
 INPUT .\assets\examples\user-interface-design.png
@@ -487,5 +490,7 @@ INPUT .\document.out
 INPUT .\document.out
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Users\aumna\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

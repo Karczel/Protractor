@@ -6,7 +6,6 @@
 \contentsline {chapter}{Chapter \hbox to\@tempdima {1\hfil }\leftprotrusion Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Background}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{3}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Technical Problems}{3}{subsection.1.2.1}%
 \contentsline {section}{\numberline {1.3}Solution Overview}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Features}{4}{subsection.1.3.1}%
 \contentsline {section}{\numberline {1.4}Target User}{5}{section.1.4}%
@@ -18,22 +17,32 @@
 \contentsline {chapter}{Chapter \hbox to\@tempdima {3\hfil }\leftprotrusion Requirement Analysis}{17}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Stakeholder Analysis}{17}{section.3.1}%
 \contentsline {section}{\numberline {3.2}User Stories}{17}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Use Case Diagram}{17}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Use Case Model}{17}{section.3.4}%
-\contentsline {section}{\numberline {3.5}User Interface Design}{18}{section.3.5}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{19}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Domain Model}{19}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Design Class Diagram}{19}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Sequence Diagram}{19}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Algorithm}{20}{section.4.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{21}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Software Development Methodology}{21}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Technology Stack}{21}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Coding Standards}{22}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Progress Tracking Report}{22}{section.5.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{23}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Solution}{23}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test Report}{23}{section.6.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{24}{chapter.7}%
-\contentsline {chapter}{Appendix A: Example}{28}{chapter*.7}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{30}{chapter*.8}%
+\contentsline {subsection}{\numberline {3.2.1}Upload \& Protecting Video Content from AI Training}{17}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Ensuring Video Quality for Human Viewers}{17}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Customizing Poisoning Parameters}{18}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Processing Videos Efficiently}{18}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Monitoring Poisoning Progress}{18}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Use Case Diagram}{18}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Use Case Model}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Use Case 1: Uploading a Video}{19}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Use Case 2: Setting Poisoning Parameters}{19}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Use Case 3: Starting the Poisoning Process}{19}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Use Case 4: Viewing the Poisoning Progress}{20}{subsection.3.4.4}%
+\contentsline {subsection}{\numberline {3.4.5}Use Case 5: Downloading the Poisoned Video}{20}{subsection.3.4.5}%
+\contentsline {section}{\numberline {3.5}User Interface Design}{21}{section.3.5}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{22}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Domain Model}{22}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Design Class Diagram}{22}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Sequence Diagram}{22}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Algorithm}{23}{section.4.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Software Development Methodology}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Technology Stack}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Coding Standards}{25}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Progress Tracking Report}{25}{section.5.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Solution}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test Report}{26}{section.6.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{27}{chapter.7}%
+\contentsline {chapter}{Appendix A: Example}{31}{chapter*.7}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{33}{chapter*.8}%
