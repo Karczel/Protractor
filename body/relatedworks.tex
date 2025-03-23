@@ -3,7 +3,7 @@
 
 Generative AI has seen rapid advancements, particularly in video synthesis and manipulation. 
 However, as AI-generated content becomes more sophisticated, concerns over deepfake misuse, copyright violations, 
-and data exploitation have risen. Several existing tools attempt to address these challenges, 
+and data exploitation has risen. Several existing tools attempt to address these challenges, 
 but they focus primarily on static image protection rather than video poisoning.
 
 \clearpage
@@ -18,7 +18,7 @@ but they focus primarily on static image protection rather than video poisoning.
 
 \end{figure}
 
-Because there are currently no poisoning processor for videos, we'll be comparing to static image poisoning processor as our competitor, in a scenarios where they extract the video's graphics frame by frame, and poison each of them as a static image, and then reassembled them back as a video.
+Because there are currently no poisoning processors for videos, our current competitor would be static image poisoning processors, in a scenario where they extract the video's graphics frame by frame, and poison each of them as a static image, and then reassemble them back as a video.
 
     The goal of the software is to protect the video from AI training by data poisoning method Adversarial attack; to break AI's accuracy by adding information to the data that is imperceptible to the human eye.
 
@@ -26,24 +26,11 @@ Because there are currently no poisoning processor for videos, we'll be comparin
 
     \begin{enumerate}
         \item Glaze
-
-        \begin{figure}[h]
-            \centering
-            \includegraphics[width=0.5\textwidth]{chapter_2/competitors/Glaze_logo.png}
-            \caption{Glaze's logo}
-        
-        \end{figure}
         
         \par Glaze is a tool that applies adversarial perturbations to digital artwork to prevent AI from learning its style. It modifies the image in a way that disrupts AI training while keeping the visual impact minimal to the human eye.
-        Like other competitors, it only targets static images. Their poisoning method is less effective against AI due to video denoiser Autoencoder using more techniques such as temporal Consistency or attention seeking transformer methods which makes perturbations for staatic images less effective, and takes too long to be implemented Frame by frame, as a 10 minutes long video with 30 fps could take a minimum of 8 hours.
+        Like other competitors, it only targets static images. Their poisoning method is less effective against AI due to video denoiser Autoencoder using more techniques such as temporal Consistency or attention seeking transformer methods which makes perturbations for static images less effective, and takes too long to be implemented Frame by frame, as a 10 minutes long video with 30 fps could take a minimum of 8 hours.
         
         \item MIST
-        \begin{figure}[h]
-            \centering
-            \includegraphics[width=0.5\textwidth]{chapter_2/competitors/MIST_logo.png}
-            \caption{MIST's logo}
-        
-        \end{figure}
         \par MIST is another adversarial tool designed to mislead AI models into misinterpreting images, effectively reducing the accuracy of AI-based recognition and training systems. It faces the same challenges as Glaze for its implementation in video poisoning.
 
         
@@ -58,21 +45,15 @@ Because there are currently no poisoning processor for videos, we'll be comparin
 
         
         \item ART : Adversarial Robustness toolbox
-        \begin{figure}[h]
-            \centering
-            \includegraphics[width=0.5\textwidth]{chapter_2/competitors/ART.png}
-            \caption{ART's logo}
-        
-        \end{figure}
         \par The Adversarial Robustness Toolbox (ART) is a broader security-focused framework that provides methods for generating adversarial attacks and defenses against AI-based recognition.
-        There is currently no video perturbation methods implemented yet.
+        There are currently no video perturbation methods implemented yet.
 
         
     \end{enumerate}
 
 \section{Literature Review}
 \label{section:literature-review}
-This project doesn't necessarily create a new poisoning tactics as research, but to optimize our software and be a reliable data security tool, we also have to be familiar with various research.
+
 \begin{enumerate}
     \item stAdv
         
@@ -80,7 +61,7 @@ This project doesn't necessarily create a new poisoning tactics as research, but
     \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{chapter_2/research/stAdv.png}
-        \caption{Explaination of how perturbation is added}
+        \caption{Explanation of how perturbation is added}
     
     \end{figure}
 
@@ -88,7 +69,7 @@ This project doesn't necessarily create a new poisoning tactics as research, but
     \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{chapter_2/research/stAdv_with_LPIPS.png}
-        \caption{Explaination of how perturbation is added with LPIPS to measure perceptual similarity between the original and the poisoned output}
+        \caption{Explanation of how perturbation is added with LPIPS to measure perceptual similarity between the original and the poisoned output}
     
     \end{figure}
 
@@ -126,8 +107,9 @@ This project doesn't necessarily create a new poisoning tactics as research, but
     
     \end{figure}
 
-    Here we can see that the Temporal Consistency of BTC-UAP is the worst, while the output is perceptually identical to the original video input.
+    Here it is demonstrated that the Temporal Consistency of BTC-UAP is the best perturbation that breaks AI’s performance worst, while the output is still perceptually identical to the original video input.
     
 \end{enumerate}
 
-While this project is not created for the purpose of research, we'll have to heavily reference these research to ensure their effectiveness against bad actors from using the ever-evolving State-of-the-Art Generative AIs as a tool to exploit user's data.
+
+To optimize our software and be a reliable data security tool, This project will be built upon various researches like these to ensure their effectiveness against bad actors from using the ever-evolving State-of-the-Art Generative AIs as a tool to exploit user's data.
