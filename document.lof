@@ -1,4 +1,4 @@
-~\hfill \textbf {Page}\par \sp@ce@skip .2in\relax \vskip \sp@ce@skip \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
+~\hfill \textbf {Page}\par \addvspace {.2in} \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Color Meaning chart}}{7}{figure.1.1}%
 \contentsline {figure}{\numberline {1.2}{\ignorespaces Timeline of Project development}}{7}{figure.1.2}%
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Competitive Landscape}}{12}{figure.2.1}%
@@ -9,5 +9,8 @@
 \contentsline {figure}{\numberline {2.6}{\ignorespaces CAM attention results of stAdv compared to FGSM and C\&W perturbation where Benign is the control sample}}{15}{figure.2.6}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces BTC-UAP poisoning logic}}{16}{figure.2.7}%
 \contentsline {figure}{\numberline {2.8}{\ignorespaces Heatmap of Temporal Consistency; darker means better Consistency}}{16}{figure.2.8}%
-\contentsline {figure}{\numberline {3.1}{\ignorespaces User Interface Design}}{21}{figure.3.1}%
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Example technology stack}}{25}{figure.5.1}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Mockup of Home Design}}{21}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Mockup of What is Design}}{21}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Mockup of Feedback Design}}{22}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Mockup of Main Process Design}}{22}{figure.3.4}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Example technology stack}}{26}{figure.5.1}%

@@ -1,4 +1,4 @@
- \relax \fontsize {16}{20.74}\selectfont \noindent \textbf {Content}\hfill \textbf {Page}\par \sp@ce@skip .2in\relax \vskip \sp@ce@skip \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
+ \relax \fontsize {16}{20.74}\selectfont \noindent \textbf {Content}\hfill \textbf {Page}\par \addvspace {.2in} \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
 \contentsline {chapter}{\nameref {chap:abstract}}{i}{chapter*.1}%
 \contentsline {chapter}{\nameref {chap:acknowledgement}}{ii}{chapter*.2}%
 \contentsline {chapter}{\nameref {chap:lot}}{vi}{chapter*.4}%
@@ -30,23 +30,23 @@
 \contentsline {subsection}{\numberline {3.4.3}Use Case 3: Starting the Poisoning Process}{19}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}Use Case 4: Viewing the Poisoning Progress}{20}{subsection.3.4.4}%
 \contentsline {subsection}{\numberline {3.4.5}Use Case 5: Downloading the Poisoned Video}{20}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}User Interface Design}{21}{section.3.5}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Domain Model}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Design Class Diagram}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Sequence Diagram}{22}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Algorithm}{23}{section.4.4}%
-\contentsline {section}{\numberline {4.5}AI Component}{23}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Poisoning Component}{23}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Hardware Optimization Component}{23}{subsection.4.5.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{25}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Software Development Methodology}{25}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Technology Stack}{25}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Coding Standards}{26}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Progress Tracking Report}{26}{section.5.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Solution}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test Report}{27}{section.6.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{28}{chapter.7}%
-\contentsline {chapter}{Appendix A: Example}{32}{chapter*.7}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{34}{chapter*.8}%
+\contentsline {section}{\numberline {3.5}User Interface Design}{20}{section.3.5}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {4\hfil }\leftprotrusion Software Architecture Design}{23}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Domain Model}{23}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Design Class Diagram}{23}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Sequence Diagram}{23}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Algorithm}{24}{section.4.4}%
+\contentsline {section}{\numberline {4.5}AI Component}{24}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}Poisoning Component}{24}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Hardware Optimization Component}{24}{subsection.4.5.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Software Development Methodology}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Technology Stack}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Coding Standards}{27}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Progress Tracking Report}{27}{section.5.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Solution}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Test Report}{28}{section.6.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{29}{chapter.7}%
+\contentsline {chapter}{Appendix A: Example}{33}{chapter*.7}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{35}{chapter*.8}%
