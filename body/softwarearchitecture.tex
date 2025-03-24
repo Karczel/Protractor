@@ -33,3 +33,31 @@ or actions between them./>
 <TIP: Optional, If you are working on a research project that proposes a new
 algorithm, you can describe your algorithm here. It can be in the form of
 pseudocode or any diagram that you deem appropriate./>
+
+\section{AI Component}
+\label{section:ai-component}
+
+\subsection{Poisoning Component}
+\label{subsection:poisoning-component}
+\begin{enumerate}
+    \item Generate Universal Adversarial Perturbation with stAdv and BTC-UAP perturbation techniques
+    \item Combine Input and Generated perturbation and limit them to stay within the color value range.
+    \item Ensure Output Quality with LPIPS and SSIM perceptual similarity ratings that users can set perceptual difference threshold.
+    \begin{enumerate}
+        \item LPIPS : ranges from 0 to infinity. High perceptual similarity is close to 0.
+        \item SSIM : ranges from -1 to 1. High perceptual similarity is close to 1.
+    \end{enumerate}
+    \item 
+    \item 
+\end{enumerate}
+
+\subsection{Hardware Optimization Component}
+\label{subsection:hardware-optimization-component}
+Before the Poisoning Process begins, perform hardware checks to minimize processing time
+\begin{enumerate}
+    \item detect hardware’s available CPU, GPU, SSD
+    \item maximize inference distribution across available CPU / GPU by cutting Videos into smaller videos and queue through different inferences
+    \item use SSD to alleviate cache from AI
+    \item maximize available batch for GPU
+    \item Eliminate identical frames to pick only one nearest identical frame to process through AI Pipeline with marked timestamp
+\end{enumerate}
