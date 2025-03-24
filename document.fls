@@ -384,12 +384,30 @@ INPUT body\requirementanalysis.tex
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
 INPUT C:\Users\USER\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
-INPUT .\assets\examples\user-interface-design.png
-INPUT .\assets\examples\user-interface-design.png
-INPUT .\assets\examples\user-interface-design.png
-INPUT .\assets\examples\user-interface-design.png
-INPUT .\assets\examples\user-interface-design.png
-INPUT .\assets\examples\user-interface-design.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\home.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\what is protractor.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\feedback.png
+INPUT .\assets\chapter_3\main process.png
+INPUT .\assets\chapter_3\main process.png
+INPUT .\assets\chapter_3\main process.png
+INPUT .\assets\chapter_3\main process.png
+INPUT .\assets\chapter_3\main process.png
+INPUT .\assets\chapter_3\main process.png
 INPUT .\body\softwarearchitecture.tex
 INPUT .\body\softwarearchitecture.tex
 OUTPUT body\softwarearchitecture.aux
