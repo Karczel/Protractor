@@ -33,7 +33,18 @@ or actions between them./>
 <TIP: Optional, If you are working on a research project that proposes a new
 algorithm, you can describe your algorithm here. It can be in the form of
 pseudocode or any diagram that you deem appropriate./>
+\begin{enumerate}
+    \item *Poisoning
+    \item *Perceptual loss threshold
+    \item Video Partition : Depending on fps, set time per each video chunks to split for parallel computing
 
+        t = C / fps
+        t is time per video block
+        C is constant optimal number of frames to process per each chunks
+        fps is frame rate per seconds
+
+
+\end{enumerate}
 \section{AI Component}
 \label{section:ai-component}
 
@@ -47,8 +58,6 @@ pseudocode or any diagram that you deem appropriate./>
         \item LPIPS : ranges from 0 to infinity. High perceptual similarity is close to 0.
         \item SSIM : ranges from -1 to 1. High perceptual similarity is close to 1.
     \end{enumerate}
-    \item 
-    \item 
 \end{enumerate}
 
 \subsection{Hardware Optimization Component}
