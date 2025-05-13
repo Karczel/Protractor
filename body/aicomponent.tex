@@ -1,2 +1,94 @@
 \chapter{AI Component}
 \label{chap:ai-component}
+
+\subsection{AI Task Requirements}
+
+\textbf{Objective:}  
+To define what the AI poisoning system should achieve, how it will function, and the environment in which it will operate.
+
+\subsubsection*{Requirements (REQ)}
+\begin{itemize}
+    \item REQ-1: The AI must generate adversarial examples from input images using the FGSM technique.
+    \item REQ-2: The AI should ensure poisoned images cause significant misclassification in target neural network models.
+    \item REQ-3: The poisoning should preserve visual integrity such that it remains perceptually similar to the original.
+    \item REQ-4: The AI must support batch processing for datasets.
+\end{itemize}
+
+\subsubsection*{Specifications (SPEC)}
+\begin{itemize}
+    \item SPEC-1: The AI uses the Adversarial Robustness Toolbox (ART) to implement FGSM attacks.
+    \item SPEC-2: The perturbation strength $\epsilon$ should be configurable by the user.
+    \item SPEC-3: Poisoning will be applied directly to image tensors prior to model training.
+\end{itemize}
+
+\subsubsection*{Environment (ENV)}
+\begin{itemize}
+    \item ENV-1: The system runs in a Python environment (e.g., Jupyter or Colab) with TensorFlow or PyTorch backends.
+    \item ENV-2: Input data consists of image files (.jpg, .png)
+    \item ENV-3: Requires GPU acceleration for efficient batch poisoning.
+    \item ENV-4: May be extended later for use in video frame sequences.
+\end{itemize}
+
+\subsection{5.3.2 AI Canvas Development}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|p{4cm}|p{10cm}|}
+\hline
+\textbf{Canvas Element} & \textbf{Description} \\
+\hline
+\textbf{Input Data} & Raw image files. Input will be uploaded manually. \\
+\hline
+\textbf{Expected Output} & Poisoned images with imperceptible perturbations that cause target models miss understand. \\
+\hline
+\textbf{Tools/Frameworks} & Python, ART, TensorFlow or PyTorch, NumPy, Google Colab or local machine with GPU. \\
+\hline
+\textbf{Success Criteria} & 
+\begin{itemize}
+    \item Target models miss understand the feature.
+    \item No noticeable visual difference in the poisoned training images (PSNR > 30dB).
+\end{itemize} \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{User Experience Design with AI}
+\label{section:User-Experience-Design-with-AI}
+
+
+\subsection{Interaction Style}
+\textbf{Interaction Style: Annotate}
+
+\begin{itemize}
+    \item The AI modifies and tags poisoned images with visual indicators (e.g., warning labels).
+    \item Users are informed when images are altered for adversarial purposes.
+    \item This method provides transparency and keeps the user in control.
+\end{itemize}
+
+\subsection{User Feedback Mechanism}
+Users are encouraged to provide feedback to help improve the AI poisoning system. The application offers a dedicated \textbf{Feedback} dropdown menu with the following options:
+\begin{itemize}
+    \item \textbf{Comments and Suggestions} – Share thoughts or ideas for improving the poisoning algorithm.
+    \item \textbf{Bug Reports} – Report technical issues or incorrect behavior in the poisoning process.
+    \item \textbf{Email Us} – Directly contact the development team for in-depth support.
+\end{itemize}
+
+\subsection{AI Contribution to System Intelligence}
+
+This system integrates AI to perform intelligent poisoning of image data. 
+This AI component significantly enhances the system’s capabilities beyond what 
+is possible with non-AI approaches.
+
+\subsubsection{Without AI Integration}
+\begin{itemize}
+    \item Manual image editing to distort data.
+    \item Watermarking or fixed filters that are easily bypassed by neural networks.
+\end{itemize}
+
+\subsubsection{With AI Integration}
+\begin{itemize}
+    \item Automated poisoning of images based on gradient information.
+    \item Adaptability to different neural network architectures.
+    \item Preservation of visual quality for human viewers while deceiving models.
+    \item Scalable batch processing of datasets with consistent adversarial effectiveness.
+\end{itemize}
