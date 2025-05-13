@@ -35,18 +35,18 @@
 \contentsline {section}{\numberline {4.1}Domain Model}{23}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Design Class Diagram}{23}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Sequence Diagram}{23}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Algorithm}{24}{section.4.4}%
-\contentsline {section}{\numberline {4.5}AI Component}{24}{section.4.5}%
-\contentsline {subsection}{\numberline {4.5.1}Poisoning Component}{24}{subsection.4.5.1}%
-\contentsline {subsection}{\numberline {4.5.2}Hardware Optimization Component}{24}{subsection.4.5.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion Software Development}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Software Development Methodology}{26}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Technology Stack}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Coding Standards}{27}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Progress Tracking Report}{27}{section.5.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Deliverable}{28}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Solution}{28}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Test Report}{28}{section.6.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Conclusion and Discussion}{29}{chapter.7}%
+\contentsline {section}{\numberline {4.4}AI Component old}{24}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Poisoning Component}{24}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Hardware Optimization Component}{24}{subsection.4.4.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component}{25}{chapter.5}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Development Methodology}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Technology Stack}{26}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Coding Standards}{26}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Progress Tracking Report}{27}{section.6.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Solution}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Test Report}{28}{section.7.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{29}{chapter.8}%
 \contentsline {chapter}{Appendix A: Example}{33}{chapter*.7}%
 \contentsline {chapter}{Appendix B: About \LaTeX }{35}{chapter*.8}%

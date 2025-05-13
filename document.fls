@@ -1,4 +1,4 @@
-PWD /Users/karczel/Github/AI Labs/Protractor
+PWD /Users/karczel/Github/Vid-Scratch-SRS
 INPUT /usr/local/texlive/2024/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
@@ -148,6 +148,9 @@ INPUT body/requirementanalysis.aux
 INPUT ./body/softwarearchitecture.aux
 INPUT ./body/softwarearchitecture.aux
 INPUT body/softwarearchitecture.aux
+INPUT ./body/aicomponent.aux
+INPUT ./body/aicomponent.aux
+INPUT body/aicomponent.aux
 INPUT ./body/softwaredevelopment.aux
 INPUT ./body/softwaredevelopment.aux
 INPUT body/softwaredevelopment.aux
@@ -378,6 +381,12 @@ OUTPUT body/softwarearchitecture.aux
 INPUT ./body/softwarearchitecture.tex
 INPUT ./body/softwarearchitecture.tex
 INPUT body/softwarearchitecture.tex
+INPUT ./body/aicomponent.tex
+INPUT ./body/aicomponent.tex
+OUTPUT body/aicomponent.aux
+INPUT ./body/aicomponent.tex
+INPUT ./body/aicomponent.tex
+INPUT body/aicomponent.tex
 INPUT ./body/softwaredevelopment.tex
 INPUT ./body/softwaredevelopment.tex
 OUTPUT body/softwaredevelopment.aux
@@ -454,6 +463,9 @@ INPUT body/requirementanalysis.aux
 INPUT ./body/softwarearchitecture.aux
 INPUT ./body/softwarearchitecture.aux
 INPUT body/softwarearchitecture.aux
+INPUT ./body/aicomponent.aux
+INPUT ./body/aicomponent.aux
+INPUT body/aicomponent.aux
 INPUT ./body/softwaredevelopment.aux
 INPUT ./body/softwaredevelopment.aux
 INPUT body/softwaredevelopment.aux
