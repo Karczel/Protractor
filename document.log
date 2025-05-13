@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.10)  27 MAR 2025 12:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.3.10)  13 MAY 2025 15:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -349,8 +349,9 @@ File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 (./document.aux (./partials/cover.aux) (./partials/innercover.aux)
 (./body/abstract.aux) (./body/acknowledgement.aux) (./body/introduction.aux)
 (./body/relatedworks.aux) (./body/requirementanalysis.aux)
-(./body/softwarearchitecture.aux) (./body/softwaredevelopment.aux)
-(./body/deliverable.aux) (./body/discussion.aux) (./body/appendices.aux))
+(./body/softwarearchitecture.aux) (./body/aicomponent.aux)
+(./body/softwaredevelopment.aux) (./body/deliverable.aux)
+(./body/discussion.aux) (./body/appendices.aux))
 \openout1 = `document.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 36.
@@ -886,29 +887,38 @@ Chapter 4.
 
 
 
-] [24]) [25]
+]) [24]
+\openout2 = `body/aicomponent.aux'.
+
+ (./body/aicomponent.tex
+Chapter 5.
+) [25
+
+
+
+]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (./body/softwaredevelopment.tex
-Chapter 5.
-<./assets/examples/tech-stack.png, id=530, 613.54219pt x 613.54219pt>
+Chapter 6.
+<./assets/examples/tech-stack.png, id=528, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
-Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 1
-3.
+Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 3
+1.
 (pdftex.def)             Requested size: 209.12683pt x 209.12585pt.
 
-Underfull \vbox (badness 1168) has occurred while \output is active []
+LaTeX Warning: `h' float specifier changed to `ht'.
 
- [26
+) [26
 
 
 
- <./assets/examples/tech-stack.png>]) [27]
+] [27 <./assets/examples/tech-stack.png>]
 \openout2 = `body/deliverable.aux'.
 
  (./body/deliverable.tex
-Chapter 6.
+Chapter 7.
 ) [28
 
 
@@ -917,7 +927,7 @@ Chapter 6.
 \openout2 = `body/discussion.aux'.
 
  (./body/discussion.tex
-Chapter 7.
+Chapter 8.
 ) [29
 
 
@@ -952,30 +962,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (./document.aux (./partials/cover.aux) (./partials/innercover.aux)
 (./body/abstract.aux) (./body/acknowledgement.aux) (./body/introduction.aux)
 (./body/relatedworks.aux) (./body/requirementanalysis.aux)
-(./body/softwarearchitecture.aux) (./body/softwaredevelopment.aux)
-(./body/deliverable.aux) (./body/discussion.aux) (./body/appendices.aux))
+(./body/softwarearchitecture.aux) (./body/aicomponent.aux)
+(./body/softwaredevelopment.aux) (./body/deliverable.aux)
+(./body/discussion.aux) (./body/appendices.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 296570F1F197DF680CB9A2144B2A7DC6;8646.
+(rerunfilecheck)             Checksum: 733CCB655885D23866116C2A391B73DF;8719.
  ) 
 Here is how much of TeX's memory you used:
- 14674 strings out of 474116
- 251987 string characters out of 5743682
+ 14697 strings out of 474116
+ 252744 string characters out of 5743682
  1939187 words of memory out of 5000000
- 36281 multiletter control sequences out of 15000+600000
+ 36299 multiletter control sequences out of 15000+600000
  629247 words of font info for 292 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1005b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/lo
 cal/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texli
 ve/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on document.pdf (44 pages, 4341033 bytes).
+Output written on document.pdf (44 pages, 4342116 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
- 549 compressed objects within 6 object streams
- 169 named destinations out of 1000 (max. 500000)
+ 635 PDF objects out of 1000 (max. 8388607)
+ 546 compressed objects within 6 object streams
+ 167 named destinations out of 1000 (max. 500000)
  87017 words of extra memory for PDF output out of 89155 (max. 10000000)
 

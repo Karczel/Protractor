@@ -9,6 +9,7 @@ A level-1 auxiliary file: body/introduction.aux
 A level-1 auxiliary file: body/relatedworks.aux
 A level-1 auxiliary file: body/requirementanalysis.aux
 A level-1 auxiliary file: body/softwarearchitecture.aux
+A level-1 auxiliary file: body/aicomponent.aux
 A level-1 auxiliary file: body/softwaredevelopment.aux
 A level-1 auxiliary file: body/deliverable.aux
 A level-1 auxiliary file: body/discussion.aux
@@ -27,7 +28,7 @@ Database file #1: bibliography.bib
 Done.
 You've used 1 entry,
             4087 wiz_defined-function locations,
-            837 strings with 7684 characters,
+            838 strings with 7704 characters,
 and the built_in function-call counts, 428 in all, are:
 = -- 22
 > -- 4
