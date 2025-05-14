@@ -511,4 +511,649 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \openout2 = `partials/cover.aux'.
 
  (partials/cover.tex
-*geometry* verbose
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=700.50687pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<assets/ku/symbol.png, id=263, 308.352pt x 308.352pt>
+File: assets/ku/symbol.png Graphic file (type png)
+<use assets/ku/symbol.png>
+Package pdftex.def Info: assets/ku/symbol.png  used on input line 5.
+(pdftex.def)             Requested size: 122.85876pt x 122.85869pt.
+
+
+[1
+
+
+
+
+{C:/Users/aumna/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/aumn
+a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./assets/ku/symbo
+l.png>])
+\openout2 = `partials/innercover.aux'.
+
+ (partials/innercover.tex
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
+* v-part:(T,H,B)=(108.405pt, 664.37186pt, 72.26999pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=452.9679pt
+* \textheight=664.37186pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-0.86499pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd)
+(C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omlztmcm.fd)
+(C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omsztmcm.fd)
+(C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\omxztmcm.fd)
+(C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd)
+Underfull \hbox (badness 10000) in alignment at lines 39--39
+[][] 
+ []
+
+
+Overfull \hbox (15.0pt too wide) in paragraph at lines 39--40
+[][] 
+ []
+
+
+
+[2
+
+
+
+
+
+])
+\openout2 = `body/abstract.aux'.
+
+ (body/abstract.tex)
+
+[1
+
+
+
+
+]
+\openout2 = `body/acknowledgement.aux'.
+
+ (body/acknowledgement.tex)
+
+[2
+
+
+
+] (document.toc
+
+[3
+
+
+]
+! Misplaced alignment tab character &.
+<argument> ...{\numberline {5.1}Business Context &
+                                                   AI Integration}\Hy@toclin...
+l.47 ...Context & AI Integration}{26}{section.5.1}
+                                                  %
+? 
+
+
+[4])
+\tf@toc=\write4
+\openout4 = `document.toc'.
+
+
+
+[5] (document.lot)
+\tf@lot=\write5
+\openout5 = `document.lot'.
+
+
+
+[6] (document.lof)
+\tf@lof=\write6
+\openout6 = `document.lof'.
+
+
+
+[7]
+\openout2 = `body/introduction.aux'.
+
+ (body/introduction.tex
+Chapter 1.
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 T
+      he controversy surrounding Generative AI isn’t just about copyright,...
+[1
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 
+      [2]
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+
+
+[3]
+Underfull \hbox (badness 6792) in paragraph at lines 56--57
+[]\T1/ptm/m/n/14.4 (+20) Video Poi-son-ing: Poi-son the video by in-ject-ing
+ []
+
+
+
+[4]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
+6.
+ (C:\Users\aumna\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+[5]
+Underfull \hbox (badness 2368) in paragraph at lines 80--81
+[]\T1/ptm/m/n/14.4 (+20) Its easy-to-use im-ple-men-ta-tion al-lows ev-ery-one 
+to ap-ply AI
+ []
+
+
+
+[6]
+<./assets/chapter_1/labels.png, id=445, 131.49126pt x 85.31876pt>
+File: ./assets/chapter_1/labels.png Graphic file (type png)
+<use ./assets/chapter_1/labels.png>
+Package pdftex.def Info: ./assets/chapter_1/labels.png  used on input line 89.
+(pdftex.def)             Requested size: 209.12683pt x 135.6991pt.
+<./assets/chapter_1/timeline.png, id=446, 672.5125pt x 358.33875pt>
+File: ./assets/chapter_1/timeline.png Graphic file (type png)
+<use ./assets/chapter_1/timeline.png>
+Package pdftex.def Info: ./assets/chapter_1/timeline.png  used on input line 95
+.
+(pdftex.def)             Requested size: 418.25368pt x 222.86214pt.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[7
+
+ <./assets/chapter_1/labels.png> <./assets/chapter_1/timeline.png>]
+
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[9]
+
+[10]
+\openout2 = `body/relatedworks.aux'.
+
+ (body/relatedworks.tex
+Chapter 2.
+
+
+[11
+
+
+
+]
+<./assets/chapter_2/competitors/competitive-analysis.png, id=470, 803.0pt x 113
+5.24126pt>
+File: ./assets/chapter_2/competitors/competitive-analysis.png Graphic file (typ
+e png)
+<use ./assets/chapter_2/competitors/competitive-analysis.png>
+Package pdftex.def Info: ./assets/chapter_2/competitors/competitive-analysis.pn
+g  used on input line 16.
+(pdftex.def)             Requested size: 209.12683pt x 295.6408pt.
+
+
+[12
+
+ <./assets/chapter_2/competitors/competitive-analysis.png>]
+<./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg, id=476, 1250.6725pt
+ x 947.54pt>
+File: ./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg Graphic file (t
+ype jpg)
+<use ./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg>
+Package pdftex.def Info: ./assets/chapter_2/competitors/Anti-DreamBooth_sample.
+jpg  used on input line 40.
+(pdftex.def)             Requested size: 209.12683pt x 158.43379pt.
+
+
+[13
+
+ <./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg (PNG copy)>]
+<./assets/chapter_2/research/stAdv.png, id=484, 368.1253pt x 144.54pt>
+File: ./assets/chapter_2/research/stAdv.png Graphic file (type png)
+<use ./assets/chapter_2/research/stAdv.png>
+Package pdftex.def Info: ./assets/chapter_2/research/stAdv.png  used on input l
+ine 63.
+(pdftex.def)             Requested size: 209.12683pt x 82.11295pt.
+<./assets/chapter_2/research/stAdv_with_LPIPS.png, id=485, 255.20343pt x 114.42
+75pt>
+File: ./assets/chapter_2/research/stAdv_with_LPIPS.png Graphic file (type png)
+<use ./assets/chapter_2/research/stAdv_with_LPIPS.png>
+Package pdftex.def Info: ./assets/chapter_2/research/stAdv_with_LPIPS.png  used
+ on input line 71.
+(pdftex.def)             Requested size: 209.12683pt x 93.77179pt.
+<./assets/chapter_2/research/stAdv_results.png, id=486, 371.13657pt x 249.93375
+pt>
+File: ./assets/chapter_2/research/stAdv_results.png Graphic file (type png)
+<use ./assets/chapter_2/research/stAdv_results.png>
+Package pdftex.def Info: ./assets/chapter_2/research/stAdv_results.png  used on
+ input line 79.
+(pdftex.def)             Requested size: 209.12683pt x 140.83527pt.
+<./assets/chapter_2/research/stAdv_against_other.png, id=487, 371.13657pt x 274
+.77657pt>
+File: ./assets/chapter_2/research/stAdv_against_other.png Graphic file (type pn
+g)
+<use ./assets/chapter_2/research/stAdv_against_other.png>
+Package pdftex.def Info: ./assets/chapter_2/research/stAdv_against_other.png  u
+sed on input line 85.
+(pdftex.def)             Requested size: 209.12683pt x 154.83395pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[14 <./assets/chapter_2/research/stAdv.png> <./assets/chapter_2/research/stAdv_
+with_LPIPS.png>]
+
+[15 <./assets/chapter_2/research/stAdv_results.png> <./assets/chapter_2/researc
+h/stAdv_against_other.png>]
+<./assets/chapter_2/research/BTC-UAP.png, id=502, 462.97969pt x 138.5175pt>
+File: ./assets/chapter_2/research/BTC-UAP.png Graphic file (type png)
+<use ./assets/chapter_2/research/BTC-UAP.png>
+Package pdftex.def Info: ./assets/chapter_2/research/BTC-UAP.png  used on input
+ line 95.
+(pdftex.def)             Requested size: 209.12683pt x 62.56902pt.
+<./assets/chapter_2/research/Temporal_consistency_results.png, id=503, 235.6303
+1pt x 144.54pt>
+File: ./assets/chapter_2/research/Temporal_consistency_results.png Graphic file
+ (type png)
+<use ./assets/chapter_2/research/Temporal_consistency_results.png>
+Package pdftex.def Info: ./assets/chapter_2/research/Temporal_consistency_resul
+ts.png  used on input line 105.
+(pdftex.def)             Requested size: 209.12683pt x 128.28288pt.
+)
+
+[16
+
+ <./assets/chapter_2/research/BTC-UAP.png> <./assets/chapter_2/research/Tempora
+l_consistency_results.png>]
+\openout2 = `body/requirementanalysis.aux'.
+
+ (body/requirementanalysis.tex
+\c@nuserstory=\count298
+\c@nusecase=\count299
+
+Chapter 3.
+
+
+[17
+
+
+
+]
+
+[18]
+
+[19]
+<./assets/chapter_3/home.png, id=544, 748.29562pt x 543.53062pt>
+File: ./assets/chapter_3/home.png Graphic file (type png)
+<use ./assets/chapter_3/home.png>
+Package pdftex.def Info: ./assets/chapter_3/home.png  used on input line 155.
+(pdftex.def)             Requested size: 334.60422pt x 243.0439pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./assets/chapter_3/what is protractor.png, id=545, 749.04843pt x 542.77782pt>
+File: ./assets/chapter_3/what is protractor.png Graphic file (type png)
+<use ./assets/chapter_3/what is protractor.png>
+Package pdftex.def Info: ./assets/chapter_3/what is protractor.png  used on inp
+ut line 161.
+(pdftex.def)             Requested size: 334.60422pt x 242.45882pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./assets/chapter_3/feedback.png, id=546, 748.29562pt x 543.53062pt>
+File: ./assets/chapter_3/feedback.png Graphic file (type png)
+<use ./assets/chapter_3/feedback.png>
+Package pdftex.def Info: ./assets/chapter_3/feedback.png  used on input line 16
+7.
+(pdftex.def)             Requested size: 334.60422pt x 243.0439pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./assets/chapter_3/main process.png, id=547, 749.04843pt x 543.53062pt>
+File: ./assets/chapter_3/main process.png Graphic file (type png)
+<use ./assets/chapter_3/main process.png>
+Package pdftex.def Info: ./assets/chapter_3/main process.png  used on input lin
+e 173.
+(pdftex.def)             Requested size: 334.60422pt x 242.79509pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+[20]
+
+[21 <./assets/chapter_3/home.png> <./assets/chapter_3/what is protractor.png>]
+
+[22 <./assets/chapter_3/feedback.png> <./assets/chapter_3/main process.png>]
+\openout2 = `body/softwarearchitecture.aux'.
+
+
+(body/softwarearchitecture.tex
+Chapter 4.
+<./assets/chapter_4/domain_diagram.png, id=576, 2854.665pt x 2115.905pt>
+File: ./assets/chapter_4/domain_diagram.png Graphic file (type png)
+<use ./assets/chapter_4/domain_diagram.png>
+Package pdftex.def Info: ./assets/chapter_4/domain_diagram.png  used on input l
+ine 12.
+(pdftex.def)             Requested size: 334.60422pt x 247.98929pt.
+
+
+[23
+
+
+
+ <./assets/chapter_4/domain_diagram.png>]
+
+[24]
+File: ./assets/chapter_4/domain_diagram.png Graphic file (type png)
+<use ./assets/chapter_4/domain_diagram.png>
+Package pdftex.def Info: ./assets/chapter_4/domain_diagram.png  used on input l
+ine 45.
+(pdftex.def)             Requested size: 334.60422pt x 247.98929pt.
+)
+
+[25]
+
+[26]
+\openout2 = `body/aicomponent.aux'.
+
+ (body/aicomponent.tex
+Chapter 5.
+! Misplaced alignment tab character &.
+<argument> Business Context &
+                              AI Integration
+l.4 \section{Business Context & AI Integration}
+                                               
+? 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `alignment tab' on input line 4.
+
+<./assets/chapter_5/Domain_Diagram.png, id=595, 469.755pt x 348.30125pt>
+File: ./assets/chapter_5/Domain_Diagram.png Graphic file (type png)
+<use ./assets/chapter_5/Domain_Diagram.png>
+Package pdftex.def Info: ./assets/chapter_5/Domain_Diagram.png  used on input l
+ine 10.
+(pdftex.def)             Requested size: 334.60422pt x 248.0928pt.
+
+
+[27
+
+
+
+ <./assets/chapter_5/Domain_Diagram.png>]
+
+[28]
+
+[29]
+Overfull \hbox (5.28488pt too wide) in paragraph at lines 109--126
+ [][] 
+ []
+
+
+
+[30]
+
+[31])
+
+[32]
+\openout2 = `body/softwaredevelopment.aux'.
+
+ (body/softwaredevelopment.tex
+Chapter 6.
+<./assets/examples/tech-stack.png, id=636, 613.54219pt x 613.54219pt>
+File: ./assets/examples/tech-stack.png Graphic file (type png)
+<use ./assets/examples/tech-stack.png>
+Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 3
+1.
+(pdftex.def)             Requested size: 209.12683pt x 209.12585pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+
+[33
+
+
+
+]
+
+[34 <./assets/examples/tech-stack.png>]
+\openout2 = `body/deliverable.aux'.
+
+ (body/deliverable.tex
+Chapter 7.
+)
+
+[35
+
+
+
+]
+\openout2 = `body/discussion.aux'.
+
+ (body/discussion.tex
+Chapter 8.
+)
+
+[36
+
+
+
+] (common/onetextpage.tex)
+
+[37
+
+
+
+] (document.bbl)
+
+[38
+
+]
+\openout2 = `body/appendices.aux'.
+
+ (body/appendices.tex (common/onetextpage.tex)
+\c@nappendix=\count300
+
+
+[39
+
+
+]
+
+[40
+
+]
+
+[41
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
+)
+
+[42
+
+] (document.aux (partials/cover.aux) (partials/innercover.aux)
+(body/abstract.aux) (body/acknowledgement.aux) (body/introduction.aux)
+(body/relatedworks.aux) (body/requirementanalysis.aux)
+(body/softwarearchitecture.aux) (body/aicomponent.aux)
+(body/softwaredevelopment.aux) (body/deliverable.aux) (body/discussion.aux)
+(body/appendices.aux))
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 78A24318CC4794AE662B666AEA299FE7;10873
+(rerunfilecheck)             After:  66797DE822F2CB52FA415AEA3E779C12;10808.
+ ) 
+Here is how much of TeX's memory you used:
+ 15118 strings out of 473523
+ 263919 string characters out of 5714630
+ 679108 words of memory out of 5000000
+ 37528 multiletter control sequences out of 15000+600000
+ 632958 words of font info for 312 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,12n,79p,1007b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb
+><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
+><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
+b><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
+b>
+Output written on document.pdf (51 pages, 4514009 bytes).
+PDF statistics:
+ 750 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 87139 words of extra memory for PDF output out of 89155 (max. 10000000)
+

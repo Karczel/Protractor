@@ -43,30 +43,30 @@
 \contentsline {subsection}{\numberline {4.1.8}Frame}{25}{subsection.4.1.8}%
 \contentsline {section}{\numberline {4.2}Design Class Diagram}{25}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Sequence Diagram}{25}{section.4.3}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Business Context & AI Integration}{26}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Goal Hierarchy}{27}{section.5.2}%
-\contentsline {subsubsection}{Organization Goals}{27}{section*.6}%
-\contentsline {subsubsection}{System Goals}{27}{section*.7}%
-\contentsline {subsubsection}{User Goals}{28}{section*.8}%
-\contentsline {subsubsection}{AI Model Goals}{28}{section*.9}%
-\contentsline {section}{\numberline {5.3}Task Requirements Analysis Using AI Canvas}{28}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements}{28}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}AI Canvas Development}{29}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}User Experience Design with AI}{30}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Interaction Style}{30}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}User Feedback Mechanism}{30}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}AI Contribution to System Intelligence}{30}{subsection.5.4.3}%
-\contentsline {subsubsection}{Without AI Integration}{30}{section*.13}%
-\contentsline {subsubsection}{With AI Integration}{31}{section*.14}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{32}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Development Methodology}{32}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Technology Stack}{32}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Coding Standards}{32}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Progress Tracking Report}{33}{section.6.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{34}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software Solution}{34}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Test Report}{34}{section.7.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{35}{chapter.8}%
-\contentsline {chapter}{Appendix A: Example}{39}{chapter*.16}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{41}{chapter*.17}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component}{27}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Business Context & AI Integration}{27}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Goal Hierarchy}{28}{section.5.2}%
+\contentsline {subsubsection}{Organization Goals}{28}{section*.6}%
+\contentsline {subsubsection}{System Goals}{28}{section*.7}%
+\contentsline {subsubsection}{User Goals}{29}{section*.8}%
+\contentsline {subsubsection}{AI Model Goals}{29}{section*.9}%
+\contentsline {section}{\numberline {5.3}Task Requirements Analysis Using AI Canvas}{29}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements}{29}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}AI Canvas Development}{30}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}User Experience Design with AI}{31}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Interaction Style}{31}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}User Feedback Mechanism}{31}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}AI Contribution to System Intelligence}{31}{subsection.5.4.3}%
+\contentsline {subsubsection}{Without AI Integration}{31}{section*.13}%
+\contentsline {subsubsection}{With AI Integration}{32}{section*.14}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{33}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Development Methodology}{33}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Technology Stack}{33}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Coding Standards}{33}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Progress Tracking Report}{34}{section.6.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{35}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Solution}{35}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Test Report}{35}{section.7.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{36}{chapter.8}%
+\contentsline {chapter}{Appendix A: Example}{40}{chapter*.16}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{42}{chapter*.17}%
