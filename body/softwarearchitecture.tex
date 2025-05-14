@@ -7,8 +7,36 @@ However, there needs to be a coherency between them at the end./>
 
 \section{Domain Model}
 \label{section:domain-model}
-<TIP: Describe the business concept of your project. Showcase a
-domain model that captures the said concept./>
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapter_4/domain_diagram.png}
+    \caption{Domain Diagram}
+\end{figure}
+
+\subsection{Interface}
+Interface where users interact with the software to input their video and set additional poisoning parameters.
+
+\subsection{Processor}
+Processor is a facade controller where it receives video input and output poisened video.
+
+\subsection{Poisoner}
+Poisoner manage the process of poisoning frames of the video. Receives frames.
+
+\subsection{Reassembler}
+Reassembler manage the process of reassembling videos back into one piece after it has been partitioned to different inferences for parallel computing to optimize poisoning speed.
+
+\subsection{Project}
+Project is an interface of the object classes Video and VideoFolder.
+
+\subsection{Video}
+Video is an object class containing the necessary information of the video.
+
+\subsection{VideoFolder}
+VideoFolder is an object class containing Video objects incase the video needs to be partitioned for parallel computing if the video is long.
+
+\subsection{Frame}
+Frame is an object class containing the necessary information of the video frames extracted from the video to send to Poisoner to inject adversarial attack.
+
 
 \section{Design Class Diagram}
 \label{section:design-class-diagram}
@@ -27,35 +55,3 @@ strictly necessary, but it can be a valuable tool in certain situations. Sequenc
 diagrams are particularly useful for illustrating the interactions between different
 components or objects in a system over time, showcasing the flow of messages
 or actions between them./>
-
-% \section{Algorithm}
-% \label{section:algorithm}
-% <TIP: Optional, If you are working on a research project that proposes a new
-% algorithm, you can describe your algorithm here. It can be in the form of
-% pseudocode or any diagram that you deem appropriate./>
-
-\section{AI Component old}
-\label{section:ai-component-old}
-
-\subsection{Poisoning Component}
-\label{subsection:poisoning-component}
-\begin{enumerate}
-    \item Generate Universal Adversarial Perturbation with stAdv and BTC-UAP perturbation techniques
-    \item Combine Input and Generated perturbation and limit them to stay within the color value range.
-    \item Ensure Output Quality with LPIPS and SSIM perceptual similarity ratings that users can set perceptual difference threshold.
-    \begin{enumerate}
-        \item LPIPS : ranges from 0 to infinity. High perceptual similarity is close to 0.
-        \item SSIM : ranges from -1 to 1. High perceptual similarity is close to 1.
-    \end{enumerate}
-\end{enumerate}
-
-\subsection{Hardware Optimization Component}
-\label{subsection:hardware-optimization-component}
-Before the Poisoning Process begins, perform hardware checks to minimize processing time
-\begin{enumerate}
-    \item detect hardware’s available CPU, GPU, SSD
-    \item maximize inference distribution across available CPU / GPU by cutting Videos into smaller videos and queue through different inferences
-    \item use SSD to alleviate cache from AI
-    \item maximize available batch for GPU
-    \item Eliminate identical frames to pick only one nearest identical frame to process through AI Pipeline with marked timestamp
-\end{enumerate}
