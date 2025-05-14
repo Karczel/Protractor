@@ -1,4 +1,4 @@
- \relax \fontsize {16}{20.74}\selectfont \noindent \textbf {Content}\hfill \textbf {Page}\par \sp@ce@skip .2in\relax \vskip \sp@ce@skip \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
+ \relax \fontsize {16}{20.74}\selectfont \noindent \textbf {Content}\hfill \textbf {Page}\par \addvspace {.2in} \relax \fontsize {14.4}{17}\selectfont \abovedisplayskip 14\p@ plus3\p@ minus7\p@ \abovedisplayshortskip \z@ plus4\p@ \belowdisplayshortskip 7\p@ plus4\p@ minus3\p@ \belowdisplayskip \abovedisplayskip \let \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ 
 \contentsline {chapter}{\nameref {chap:abstract}}{i}{chapter*.1}%
 \contentsline {chapter}{\nameref {chap:acknowledgement}}{ii}{chapter*.2}%
 \contentsline {chapter}{\nameref {chap:lot}}{vi}{chapter*.4}%
@@ -41,23 +41,28 @@
 \contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component}{25}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Business Context & AI Integration}{25}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Goal Hierarchy}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Task Requirements Analysis Using AI Canvas}{26}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements}{26}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}AI Canvas Development}{27}{subsection.5.3.2}%
-\contentsline {section}{\numberline {5.4}User Experience Design with AI}{27}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Interaction Style}{27}{subsection.5.4.1}%
-\contentsline {subsection}{\numberline {5.4.2}User Feedback Mechanism}{28}{subsection.5.4.2}%
-\contentsline {subsection}{\numberline {5.4.3}AI Contribution to System Intelligence}{28}{subsection.5.4.3}%
-\contentsline {subsubsection}{Without AI Integration}{28}{section*.9}%
-\contentsline {subsubsection}{With AI Integration}{28}{section*.10}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{29}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Development Methodology}{29}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Technology Stack}{29}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Coding Standards}{29}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Progress Tracking Report}{30}{section.6.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{31}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software Solution}{31}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Test Report}{31}{section.7.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{32}{chapter.8}%
-\contentsline {chapter}{Appendix A: Example}{36}{chapter*.12}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{38}{chapter*.13}%
+\contentsline {subsection}{\numberline {5.2.1}Project Goals}{26}{subsection.5.2.1}%
+\contentsline {subsubsection}{Organization Goals}{26}{section*.6}%
+\contentsline {subsubsection}{System Goals}{26}{section*.7}%
+\contentsline {subsubsection}{User Goals}{27}{section*.8}%
+\contentsline {subsubsection}{AI Model Goals}{27}{section*.9}%
+\contentsline {section}{\numberline {5.3}Task Requirements Analysis Using AI Canvas}{27}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements}{27}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}AI Canvas Development}{28}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}User Experience Design with AI}{28}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Interaction Style}{28}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}User Feedback Mechanism}{29}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}AI Contribution to System Intelligence}{29}{subsection.5.4.3}%
+\contentsline {subsubsection}{Without AI Integration}{29}{section*.13}%
+\contentsline {subsubsection}{With AI Integration}{30}{section*.14}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{31}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Development Methodology}{31}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Technology Stack}{31}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Coding Standards}{31}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Progress Tracking Report}{32}{section.6.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{33}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Solution}{33}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Test Report}{33}{section.7.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{34}{chapter.8}%
+\contentsline {chapter}{Appendix A: Example}{38}{chapter*.16}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{40}{chapter*.17}%

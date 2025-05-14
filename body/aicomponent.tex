@@ -11,14 +11,112 @@
     \caption{System's Domain Diagram}
 \end{figure}
 
-This is the system's domain diagram. The Poisoner component represents the part where AI will be used to generate and inject adversarial perturbations into the frames of input videos.
+This is the system's domain diagram. The Poisoner component represents the part where AI will be used to generate adversarial perturbations to be injected into the frames of input videos.
 
-AI is suitable for this task because the 'poison' needs to be used on any video content, and remain effective as an adversarial attack against AI training while not being noticeably different from the original video.
-This requires the 'poison' to adapt to every possible input video’s features in light, color, etc., which is impractical to implement this feature with traditional programming alone due to the unpredictability and constantly changing nature of video content. By this way, we can ensure that the poisoning method will remain robust against AI training for every possible video.
+
+AI is suitable for this task because the "poison" needs to understand how the AI sees images, in particular, the feature weights that influence its decision-making process. 
+
+By injecting adversarial perturbations that manipulate the AI’s perception, we aim to cause the AI to misinterpret the images, distorting their true meaning as much as possible, while remaining perceptually similar to the human eye, by using the adversarial attack algorithm.
+
+With this method, we can ensure that the poisoning method remains robust against AI training, continuing to degrade its performance even as AI learns from more images.
 
 \section{Goal Hierarchy}
 \label{section:goal-hierarchy}
-\textbf{Objective:}
+
+\subsection{Project Goals}
+
+\subsubsection{Organization Goals}
+\begin{enumerate}
+    \item 
+    \textbf{Goal:}
+    Discourage unauthorized use of creators' intellectual property in non-consensual AI training. \\
+    \textbf{Measured by:} 
+    \begin{itemize}
+        \item 
+        \textbf{What data will you collect?} \\
+        Number of reports of unauthorized use of creators' works in AI training datasets.
+        Data on the specific AI models or platforms where the creator's work was used without consent.
+        \item 
+        \textbf{How will you know if the system is doing a good job?} \\
+            Reduction in cases of unauthorized AI usage reported by creators.
+    \end{itemize}
+    
+    \item 
+    \textbf{Goal:}
+    Establish the organization as a leader in AI-powered copyright defense. \\
+    \textbf{Measured by:} 
+    Positive media mentions and industry recognition.
+    
+    \item 
+    \textbf{Goal:}
+    Encourage ethical AI practices and creator empowerment. \\
+    \textbf{Measured by:} 
+    Number of creators adopting and actively using the system.
+\end{enumerate}
+
+\subsubsection{System Goals}
+\begin{enumerate}
+    \item 
+    \textbf{Goal:}
+    Process various video formats and inject adversarial perturbations with minimal perceptual change. \\
+    \textbf{Measured by:} 
+    Percentage of processed videos meeting quality and poisoning effectiveness standards.
+    
+    \item 
+    \textbf{Goal:}
+    Ensure poisoned videos degrade AI training effectiveness. \\
+    \textbf{Measured by:} 
+    Testing AI model accuracy before and after poisoning, expecting a significant drop.
+    
+    \item 
+    \textbf{Goal:}
+    Operate reliably and efficiently at scale. \\
+    \textbf{Measured by:} 
+    System uptime and average processing time per video.
+\end{enumerate}
+
+\subsubsection{User Goals}
+\begin{enumerate}
+    \item 
+    \textbf{Goal:}
+    Enable users to easily upload, process, and download poisoned videos. \\
+    \textbf{Measured by:} 
+    Number of successful video uploads and downloads.
+    
+    \item 
+    \textbf{Goal:}
+    Provide users with confidence that their content remains visually unchanged while being protected. \\
+    \textbf{Measured by:} 
+    User satisfaction ratings and survey feedback.
+    
+    \item 
+    \textbf{Goal:}
+    Offer transparency and feedback on the poisoning process. \\
+    \textbf{Measured by:} 
+    Number of support tickets or complaints related to output quality.
+\end{enumerate}
+
+\subsubsection{AI Model Goals}
+\begin{enumerate}
+    \item 
+    \textbf{Goal:}
+    Generate adaptive adversarial perturbations tailored to each video's unique features (light, color, texture, etc.). \\
+    \textbf{Measured by:} 
+    Success rate of adversarial perturbations against various AI models.
+    
+    \item 
+    \textbf{Goal:}
+    Balance invisibility of perturbation with high poisoning effectiveness. \\
+    \textbf{Measured by:} 
+    PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index) to ensure minimal perceptual difference.
+    
+    \item 
+    \textbf{Goal:}
+    Maintain robustness against AI adaptation or retraining attempts. \\
+    \textbf{Measured by:} 
+    Resistance testing against new AI models retrained on poisoned datasets.
+\end{enumerate}
+
 
 \section{Task Requirements Analysis Using AI Canvas}
 \label{section:task-requirements-analysis-using-AI-canvas}
