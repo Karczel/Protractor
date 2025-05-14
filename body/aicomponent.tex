@@ -26,29 +26,13 @@ With this method, we can ensure that the poisoning method remains robust against
 \begin{enumerate}
     \item 
     \textbf{Goal:}
-    Discourage unauthorized use of creators' intellectual property in non-consensual AI training. \\
+    Discouraging anyone from using creator's intellectual property in non-consensual AI training. \\
     \textbf{Measured by:} 
-    \begin{itemize}
-        \item 
-        \textbf{What data will you collect?} \\
-        Number of reports of unauthorized use of creators' works in AI training datasets.
-        Data on the specific AI models or platforms where the creator's work was used without consent.
-        \item 
-        \textbf{How will you know if the system is doing a good job?} \\
-            Reduction in cases of unauthorized AI usage reported by creators.
-    \end{itemize}
-    
-    \item 
-    \textbf{Goal:}
-    Establish the organization as a leader in AI-powered copyright defense. \\
-    \textbf{Measured by:} 
-    Positive media mentions and industry recognition.
-    
-    \item 
-    \textbf{Goal:}
-    Encourage ethical AI practices and creator empowerment. \\
-    \textbf{Measured by:} 
-    Number of creators adopting and actively using the system.
+    Reduction in cases of unauthorized AI usage reported by creators. \\
+    \textbf{Data collection:}
+    Amount of successfully removed artist's name and work from AI training datasets due to adversarial attacks that break the AI's ability to replicate the artist style. \\
+    \textbf{Operationalization:} 
+    Evaluate AI ability to replicate the artist style before and after poisoning using similarity metrics and model accuracy. Track the number of models where the artist data becomes unusable or is successfully excluded.
 \end{enumerate}
 
 \subsubsection{System Goals}
@@ -57,40 +41,24 @@ With this method, we can ensure that the poisoning method remains robust against
     \textbf{Goal:}
     Process various video formats and inject adversarial perturbations with minimal perceptual change. \\
     \textbf{Measured by:} 
-    Percentage of processed videos meeting quality and poisoning effectiveness standards.
-    
-    \item 
-    \textbf{Goal:}
-    Ensure poisoned videos degrade AI training effectiveness. \\
-    \textbf{Measured by:} 
-    Testing AI model accuracy before and after poisoning, expecting a significant drop.
-    
-    \item 
-    \textbf{Goal:}
-    Operate reliably and efficiently at scale. \\
-    \textbf{Measured by:} 
-    System uptime and average processing time per video.
+    Percentage of processed videos meeting quality and poisoning effectiveness standards. \\
+    \textbf{Data collection:}
+    System logs of predictions and User feedback. \\
+    \textbf{Operationalization:} 
+    Evaluate processed videos using perceptual similarity metrics and poisoning effectiveness.
 \end{enumerate}
 
 \subsubsection{User Goals}
 \begin{enumerate}
     \item 
     \textbf{Goal:}
-    Enable users to easily upload, process, and download poisoned videos. \\
-    \textbf{Measured by:} 
-    Number of successful video uploads and downloads.
-    
-    \item 
-    \textbf{Goal:}
     Provide users with confidence that their content remains visually unchanged while being protected. \\
     \textbf{Measured by:} 
-    User satisfaction ratings and survey feedback.
-    
-    \item 
-    \textbf{Goal:}
-    Offer transparency and feedback on the poisoning process. \\
-    \textbf{Measured by:} 
-    Number of support tickets or complaints related to output quality.
+    User satisfaction ratings and survey feedback. \\
+    \textbf{Data collection:}
+    Post-processing surveys, user feedback forms, and visual comparison ratings (original vs. poisoned). \\
+    \textbf{Operationalization:} 
+    Collect and analyze survey results periodically to assess perceived visual quality. Adjust perturbation strength or method based on recurring feedback trends.
 \end{enumerate}
 
 \subsubsection{AI Model Goals}
@@ -99,19 +67,11 @@ With this method, we can ensure that the poisoning method remains robust against
     \textbf{Goal:}
     Generate adaptive adversarial perturbations tailored to each video's unique features (light, color, texture, etc.). \\
     \textbf{Measured by:} 
-    Success rate of adversarial perturbations against various AI models.
-    
-    \item 
-    \textbf{Goal:}
-    Balance invisibility of perturbation with high poisoning effectiveness. \\
-    \textbf{Measured by:} 
-    PSNR (Peak Signal-to-Noise Ratio) and SSIM (Structural Similarity Index) to ensure minimal perceptual difference.
-    
-    \item 
-    \textbf{Goal:}
-    Maintain robustness against AI adaptation or retraining attempts. \\
-    \textbf{Measured by:} 
-    Resistance testing against new AI models retrained on poisoned datasets.
+    Percentage of processed videos meeting quality and poisoning effectiveness standards. \\
+    \textbf{Data collection:}
+    AI model history and User feedback. \\
+    \textbf{Operationalization:} 
+    Test perturbations across multiple AI models and log evasion success rates. Analyze perturbation patterns against video feature distributions (e.g., lighting, color).
 \end{enumerate}
 
 
