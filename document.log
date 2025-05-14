@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  14 MAY 2025 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  14 MAY 2025 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -968,15 +968,23 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 (body/softwarearchitecture.tex
 Chapter 4.
+<./assets/chapter_4/domain_diagram.png, id=554, 2854.665pt x 2115.905pt>
+File: ./assets/chapter_4/domain_diagram.png Graphic file (type png)
+<use ./assets/chapter_4/domain_diagram.png>
+Package pdftex.def Info: ./assets/chapter_4/domain_diagram.png  used on input l
+ine 12.
+(pdftex.def)             Requested size: 334.60422pt x 247.98929pt.
 
 
 [23
 
 
 
-])
+ <./assets/chapter_4/domain_diagram.png>]
 
-[24]
+[24])
+
+[25]
 \openout2 = `body/aicomponent.aux'.
 
  (body/aicomponent.tex
@@ -991,7 +999,7 @@ l.4 \section{Business Context & AI Integration}
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `alignment tab' on input line 4.
 
-<./assets/chapter_5/Domain_Diagram.png, id=572, 469.755pt x 348.30125pt>
+<./assets/chapter_5/Domain_Diagram.png, id=577, 469.755pt x 348.30125pt>
 File: ./assets/chapter_5/Domain_Diagram.png Graphic file (type png)
 <use ./assets/chapter_5/Domain_Diagram.png>
 Package pdftex.def Info: ./assets/chapter_5/Domain_Diagram.png  used on input l
@@ -999,34 +1007,31 @@ ine 10.
 (pdftex.def)             Requested size: 334.60422pt x 248.0928pt.
 
 
-[25
+[26
 
 
 
  <./assets/chapter_5/Domain_Diagram.png>]
 
-[26]
-
 [27]
-Overfull \hbox (5.28488pt too wide) in paragraph at lines 106--123
+
+[28]
+Overfull \hbox (5.28488pt too wide) in paragraph at lines 109--126
  [][] 
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
 
+[29]
 
+[30])
 
-[28]
-
-[29])
-
-[30]
+[31]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (body/softwaredevelopment.tex
 Chapter 6.
-<./assets/examples/tech-stack.png, id=612, 613.54219pt x 613.54219pt>
+<./assets/examples/tech-stack.png, id=618, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
 Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 3
@@ -1037,20 +1042,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[31
+[32
 
 
 
 ]
 
-[32 <./assets/examples/tech-stack.png>]
+[33 <./assets/examples/tech-stack.png>]
 \openout2 = `body/deliverable.aux'.
 
  (body/deliverable.tex
 Chapter 7.
 )
 
-[33
+[34
 
 
 
@@ -1061,19 +1066,19 @@ Chapter 7.
 Chapter 8.
 )
 
-[34
+[35
 
 
 
 ] (common/onetextpage.tex)
 
-[35
+[36
 
 
 
 ] (document.bbl)
 
-[36
+[37
 
 ]
 \openout2 = `body/appendices.aux'.
@@ -1082,16 +1087,16 @@ Chapter 8.
 \c@nappendix=\count300
 
 
-[37
-
-
-]
-
 [38
+
 
 ]
 
 [39
+
+]
+
+[40
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -1100,7 +1105,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 )
 
-[40
+[41
 
 ] (document.aux (partials/cover.aux) (partials/innercover.aux)
 (body/abstract.aux) (body/acknowledgement.aux) (body/introduction.aux)
@@ -1112,25 +1117,50 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: DFC6DF30795C4F31142BD174A30E8DDF;10641.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `document.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `document.out':
+(rerunfilecheck)             Before: 1B60CD29D19F7B34E406C1A46EB0250B;10702
+(rerunfilecheck)             After:  66797DE822F2CB52FA415AEA3E779C12;10808.
  ) 
 Here is how much of TeX's memory you used:
- 15098 strings out of 473523
- 263506 string characters out of 5714630
+ 15120 strings out of 473523
+ 264062 string characters out of 5714630
  678108 words of memory out of 5000000
- 37519 multiletter control sequences out of 15000+600000
- 632450 words of font info for 304 fonts, out of 8000000 for 9000
+ 37528 multiletter control sequences out of 15000+600000
+ 632958 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1007b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb
-><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
-><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
-b><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
-b>
-Output written on document.pdf (49 pages, 4444704 bytes).
+
+pdfTeX warning (dest): name{subsection.5.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.4.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{section.4.4} has been referenced but does not exist
+, replaced by a fixed one
+
+<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><
+C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb>
+<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on document.pdf (50 pages, 4511666 bytes).
 PDF statistics:
- 726 PDF objects out of 1000 (max. 8388607)
- 195 named destinations out of 1000 (max. 500000)
- 87102 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 732 PDF objects out of 1000 (max. 8388607)
+ 196 named destinations out of 1000 (max. 500000)
+ 87107 words of extra memory for PDF output out of 89155 (max. 10000000)
 
