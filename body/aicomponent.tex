@@ -1,13 +1,28 @@
 \chapter{AI Component}
 \label{chap:ai-component}
 
+\section{Business Context & AI Integration}
+\label{section:business-context-and-AI-integration}
+\textbf{Objective:}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{chapter_5/Domain_Diagram.png}
+    \caption{System's Domain Diagram}
+\end{figure}
+
+This is the system's domain diagram. The Poisoner component represents the part where AI will be used to generate and inject adversarial perturbations into the frames of input videos.
+
+AI is suitable for this task because the 'poison' needs to be used on any video content, and remain effective as an adversarial attack against AI training while not being noticeably different from the original video.
+This requires the 'poison' to adapt to every possible input video’s features in light, color, etc., which is impractical to implement this feature with traditional programming alone due to the unpredictability and constantly changing nature of video content. By this way, we can ensure that the poisoning method will remain robust against AI training for every possible video.
+
+\section{Goal Hierarchy}
+\label{section:goal-hierarchy}
+\textbf{Objective:}
 
 \section{Task Requirements Analysis Using AI Canvas}
-\label{section:Task-Requirements-Analysis-Using-AI-Canvas}
+\label{section:task-requirements-analysis-using-AI-canvas}
 \subsection{AI Task Requirements}
-
-\textbf{Objective:}  
-To define what the AI poisoning system should achieve, how it will function, and the environment in which it will operate.
 
 \subsubsection*{Requirements (REQ)}
 \begin{itemize}
@@ -56,7 +71,7 @@ To define what the AI poisoning system should achieve, how it will function, and
 \end{table}
 
 \section{User Experience Design with AI}
-\label{section:User-Experience-Design-with-AI}
+\label{section:user-experience-design-with-AI}
 
 
 \subsection{Interaction Style}

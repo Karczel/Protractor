@@ -39,14 +39,25 @@
 \contentsline {subsection}{\numberline {4.4.1}Poisoning Component}{24}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4.4.2}Hardware Optimization Component}{24}{subsection.4.4.2}%
 \contentsline {chapter}{Chapter \hbox to\@tempdima {5\hfil }\leftprotrusion AI Component}{25}{chapter.5}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{26}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Software Development Methodology}{26}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Technology Stack}{26}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Coding Standards}{26}{section.6.3}%
-\contentsline {section}{\numberline {6.4}Progress Tracking Report}{27}{section.6.4}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{28}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Software Solution}{28}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Test Report}{28}{section.7.2}%
-\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{29}{chapter.8}%
-\contentsline {chapter}{Appendix A: Example}{33}{chapter*.7}%
-\contentsline {chapter}{Appendix B: About \LaTeX }{35}{chapter*.8}%
+\contentsline {section}{\numberline {5.1}Business Context & AI Integration}{25}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Goal Hierarchy}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Task Requirements Analysis Using AI Canvas}{26}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}AI Task Requirements}{26}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}AI Canvas Development}{27}{subsection.5.3.2}%
+\contentsline {section}{\numberline {5.4}User Experience Design with AI}{27}{section.5.4}%
+\contentsline {subsection}{\numberline {5.4.1}Interaction Style}{27}{subsection.5.4.1}%
+\contentsline {subsection}{\numberline {5.4.2}User Feedback Mechanism}{28}{subsection.5.4.2}%
+\contentsline {subsection}{\numberline {5.4.3}AI Contribution to System Intelligence}{28}{subsection.5.4.3}%
+\contentsline {subsubsection}{Without AI Integration}{28}{section*.9}%
+\contentsline {subsubsection}{With AI Integration}{28}{section*.10}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {6\hfil }\leftprotrusion Software Development}{29}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Software Development Methodology}{29}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Technology Stack}{29}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Coding Standards}{29}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Progress Tracking Report}{30}{section.6.4}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {7\hfil }\leftprotrusion Deliverable}{31}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Software Solution}{31}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Test Report}{31}{section.7.2}%
+\contentsline {chapter}{Chapter \hbox to\@tempdima {8\hfil }\leftprotrusion Conclusion and Discussion}{32}{chapter.8}%
+\contentsline {chapter}{Appendix A: Example}{36}{chapter*.12}%
+\contentsline {chapter}{Appendix B: About \LaTeX }{38}{chapter*.13}%
