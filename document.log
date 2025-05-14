@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  14 MAY 2025 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.3) (preloaded format=pdflatex 2025.3.22)  14 MAY 2025 20:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -644,7 +644,7 @@ Overfull \hbox (15.0pt too wide) in paragraph at lines 39--40
 ! Misplaced alignment tab character &.
 <argument> ...{\numberline {5.1}Business Context &
                                                    AI Integration}\Hy@toclin...
-l.47 ...Context & AI Integration}{26}{section.5.1}
+l.47 ...Context & AI Integration}{27}{section.5.1}
                                                   %
 ? 
 
@@ -775,12 +775,12 @@ to ap-ply AI
 
 
 [6]
-<./assets/chapter_1/labels.png, id=445, 131.49126pt x 85.31876pt>
+<./assets/chapter_1/labels.png, id=447, 131.49126pt x 85.31876pt>
 File: ./assets/chapter_1/labels.png Graphic file (type png)
 <use ./assets/chapter_1/labels.png>
 Package pdftex.def Info: ./assets/chapter_1/labels.png  used on input line 89.
 (pdftex.def)             Requested size: 209.12683pt x 135.6991pt.
-<./assets/chapter_1/timeline.png, id=446, 672.5125pt x 358.33875pt>
+<./assets/chapter_1/timeline.png, id=448, 672.5125pt x 358.33875pt>
 File: ./assets/chapter_1/timeline.png Graphic file (type png)
 <use ./assets/chapter_1/timeline.png>
 Package pdftex.def Info: ./assets/chapter_1/timeline.png  used on input line 95
@@ -814,7 +814,7 @@ Chapter 2.
 
 
 ]
-<./assets/chapter_2/competitors/competitive-analysis.png, id=470, 803.0pt x 113
+<./assets/chapter_2/competitors/competitive-analysis.png, id=472, 803.0pt x 113
 5.24126pt>
 File: ./assets/chapter_2/competitors/competitive-analysis.png Graphic file (typ
 e png)
@@ -827,7 +827,7 @@ g  used on input line 16.
 [12
 
  <./assets/chapter_2/competitors/competitive-analysis.png>]
-<./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg, id=476, 1250.6725pt
+<./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg, id=478, 1250.6725pt
  x 947.54pt>
 File: ./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg Graphic file (t
 ype jpg)
@@ -840,27 +840,27 @@ jpg  used on input line 40.
 [13
 
  <./assets/chapter_2/competitors/Anti-DreamBooth_sample.jpg (PNG copy)>]
-<./assets/chapter_2/research/stAdv.png, id=484, 368.1253pt x 144.54pt>
+<./assets/chapter_2/research/stAdv.png, id=486, 368.1253pt x 144.54pt>
 File: ./assets/chapter_2/research/stAdv.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv.png  used on input l
 ine 63.
 (pdftex.def)             Requested size: 209.12683pt x 82.11295pt.
-<./assets/chapter_2/research/stAdv_with_LPIPS.png, id=485, 255.20343pt x 114.42
+<./assets/chapter_2/research/stAdv_with_LPIPS.png, id=487, 255.20343pt x 114.42
 75pt>
 File: ./assets/chapter_2/research/stAdv_with_LPIPS.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv_with_LPIPS.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv_with_LPIPS.png  used
  on input line 71.
 (pdftex.def)             Requested size: 209.12683pt x 93.77179pt.
-<./assets/chapter_2/research/stAdv_results.png, id=486, 371.13657pt x 249.93375
+<./assets/chapter_2/research/stAdv_results.png, id=488, 371.13657pt x 249.93375
 pt>
 File: ./assets/chapter_2/research/stAdv_results.png Graphic file (type png)
 <use ./assets/chapter_2/research/stAdv_results.png>
 Package pdftex.def Info: ./assets/chapter_2/research/stAdv_results.png  used on
  input line 79.
 (pdftex.def)             Requested size: 209.12683pt x 140.83527pt.
-<./assets/chapter_2/research/stAdv_against_other.png, id=487, 371.13657pt x 274
+<./assets/chapter_2/research/stAdv_against_other.png, id=489, 371.13657pt x 274
 .77657pt>
 File: ./assets/chapter_2/research/stAdv_against_other.png Graphic file (type pn
 g)
@@ -882,13 +882,13 @@ with_LPIPS.png>]
 
 [15 <./assets/chapter_2/research/stAdv_results.png> <./assets/chapter_2/researc
 h/stAdv_against_other.png>]
-<./assets/chapter_2/research/BTC-UAP.png, id=502, 462.97969pt x 138.5175pt>
+<./assets/chapter_2/research/BTC-UAP.png, id=504, 462.97969pt x 138.5175pt>
 File: ./assets/chapter_2/research/BTC-UAP.png Graphic file (type png)
 <use ./assets/chapter_2/research/BTC-UAP.png>
 Package pdftex.def Info: ./assets/chapter_2/research/BTC-UAP.png  used on input
  line 95.
 (pdftex.def)             Requested size: 209.12683pt x 62.56902pt.
-<./assets/chapter_2/research/Temporal_consistency_results.png, id=503, 235.6303
+<./assets/chapter_2/research/Temporal_consistency_results.png, id=505, 235.6303
 1pt x 144.54pt>
 File: ./assets/chapter_2/research/Temporal_consistency_results.png Graphic file
  (type png)
@@ -920,7 +920,7 @@ Chapter 3.
 [18]
 
 [19]
-<./assets/chapter_3/home.png, id=544, 748.29562pt x 543.53062pt>
+<./assets/chapter_3/home.png, id=546, 748.29562pt x 543.53062pt>
 File: ./assets/chapter_3/home.png Graphic file (type png)
 <use ./assets/chapter_3/home.png>
 Package pdftex.def Info: ./assets/chapter_3/home.png  used on input line 155.
@@ -929,7 +929,7 @@ Package pdftex.def Info: ./assets/chapter_3/home.png  used on input line 155.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets/chapter_3/what is protractor.png, id=545, 749.04843pt x 542.77782pt>
+<./assets/chapter_3/what is protractor.png, id=547, 749.04843pt x 542.77782pt>
 File: ./assets/chapter_3/what is protractor.png Graphic file (type png)
 <use ./assets/chapter_3/what is protractor.png>
 Package pdftex.def Info: ./assets/chapter_3/what is protractor.png  used on inp
@@ -938,7 +938,7 @@ ut line 161.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets/chapter_3/feedback.png, id=546, 748.29562pt x 543.53062pt>
+<./assets/chapter_3/feedback.png, id=548, 748.29562pt x 543.53062pt>
 File: ./assets/chapter_3/feedback.png Graphic file (type png)
 <use ./assets/chapter_3/feedback.png>
 Package pdftex.def Info: ./assets/chapter_3/feedback.png  used on input line 16
@@ -947,7 +947,7 @@ Package pdftex.def Info: ./assets/chapter_3/feedback.png  used on input line 16
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./assets/chapter_3/main process.png, id=547, 749.04843pt x 543.53062pt>
+<./assets/chapter_3/main process.png, id=549, 749.04843pt x 543.53062pt>
 File: ./assets/chapter_3/main process.png Graphic file (type png)
 <use ./assets/chapter_3/main process.png>
 Package pdftex.def Info: ./assets/chapter_3/main process.png  used on input lin
@@ -968,7 +968,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 (body/softwarearchitecture.tex
 Chapter 4.
-<./assets/chapter_4/domain_diagram.png, id=576, 2854.665pt x 2115.905pt>
+<./assets/chapter_4/domain_diagram.png, id=578, 2854.665pt x 2115.905pt>
 File: ./assets/chapter_4/domain_diagram.png Graphic file (type png)
 <use ./assets/chapter_4/domain_diagram.png>
 Package pdftex.def Info: ./assets/chapter_4/domain_diagram.png  used on input l
@@ -982,17 +982,9 @@ ine 12.
 
  <./assets/chapter_4/domain_diagram.png>]
 
-[24]
-File: ./assets/chapter_4/domain_diagram.png Graphic file (type png)
-<use ./assets/chapter_4/domain_diagram.png>
-Package pdftex.def Info: ./assets/chapter_4/domain_diagram.png  used on input l
-ine 45.
-(pdftex.def)             Requested size: 334.60422pt x 247.98929pt.
-)
+[24])
 
 [25]
-
-[26]
 \openout2 = `body/aicomponent.aux'.
 
  (body/aicomponent.tex
@@ -1007,7 +999,7 @@ l.4 \section{Business Context & AI Integration}
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `alignment tab' on input line 4.
 
-<./assets/chapter_5/Domain_Diagram.png, id=595, 469.755pt x 348.30125pt>
+<./assets/chapter_5/Domain_Diagram.png, id=592, 469.755pt x 348.30125pt>
 File: ./assets/chapter_5/Domain_Diagram.png Graphic file (type png)
 <use ./assets/chapter_5/Domain_Diagram.png>
 Package pdftex.def Info: ./assets/chapter_5/Domain_Diagram.png  used on input l
@@ -1015,31 +1007,31 @@ ine 10.
 (pdftex.def)             Requested size: 334.60422pt x 248.0928pt.
 
 
-[27
+[26
 
 
 
  <./assets/chapter_5/Domain_Diagram.png>]
 
-[28]
+[27]
 
-[29]
+[28]
 Overfull \hbox (5.28488pt too wide) in paragraph at lines 109--126
  [][] 
  []
 
 
 
-[30]
+[29]
 
-[31])
+[30])
 
-[32]
+[31]
 \openout2 = `body/softwaredevelopment.aux'.
 
  (body/softwaredevelopment.tex
 Chapter 6.
-<./assets/examples/tech-stack.png, id=636, 613.54219pt x 613.54219pt>
+<./assets/examples/tech-stack.png, id=633, 613.54219pt x 613.54219pt>
 File: ./assets/examples/tech-stack.png Graphic file (type png)
 <use ./assets/examples/tech-stack.png>
 Package pdftex.def Info: ./assets/examples/tech-stack.png  used on input line 3
@@ -1050,20 +1042,20 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 )
 
-[33
+[32
 
 
 
 ]
 
-[34 <./assets/examples/tech-stack.png>]
+[33 <./assets/examples/tech-stack.png>]
 \openout2 = `body/deliverable.aux'.
 
  (body/deliverable.tex
 Chapter 7.
 )
 
-[35
+[34
 
 
 
@@ -1074,19 +1066,19 @@ Chapter 7.
 Chapter 8.
 )
 
-[36
+[35
 
 
 
 ] (common/onetextpage.tex)
 
-[37
+[36
 
 
 
 ] (document.bbl)
 
-[38
+[37
 
 ]
 \openout2 = `body/appendices.aux'.
@@ -1095,16 +1087,16 @@ Chapter 8.
 \c@nappendix=\count300
 
 
-[39
+[38
 
+
+]
+
+[39
 
 ]
 
 [40
-
-]
-
-[41
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <20.74> not available
@@ -1113,7 +1105,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 19.
 )
 
-[42
+[41
 
 ] (document.aux (partials/cover.aux) (partials/innercover.aux)
 (body/abstract.aux) (body/acknowledgement.aux) (body/introduction.aux)
@@ -1129,31 +1121,28 @@ L3 programming layer <2025-01-18>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `document.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `document.out':
-(rerunfilecheck)             Before: 78A24318CC4794AE662B666AEA299FE7;10873
-(rerunfilecheck)             After:  66797DE822F2CB52FA415AEA3E779C12;10808.
+Package rerunfilecheck Info: File `document.out' has not changed.
+(rerunfilecheck)             Checksum: 66797DE822F2CB52FA415AEA3E779C12;10808.
  ) 
 Here is how much of TeX's memory you used:
- 15118 strings out of 473523
- 263919 string characters out of 5714630
+ 15117 strings out of 473523
+ 263912 string characters out of 5714630
  679108 words of memory out of 5000000
  37528 multiletter control sequences out of 15000+600000
  632958 words of font info for 312 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,79p,1007b,618s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb
-><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb
-><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pf
-b><C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pf
-b>
-Output written on document.pdf (51 pages, 4514009 bytes).
+
+pdfTeX warning (dest): name{figure.4.2} has been referenced but does not exist,
+ replaced by a fixed one
+
+<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/symbol/usyr.pfb><
+C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><
+C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb>
+<C:/Users/aumna/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
+Output written on document.pdf (50 pages, 4513291 bytes).
 PDF statistics:
- 750 PDF objects out of 1000 (max. 8388607)
- 194 named destinations out of 1000 (max. 500000)
+ 747 PDF objects out of 1000 (max. 8388607)
+ 193 named destinations out of 1000 (max. 500000)
  87139 words of extra memory for PDF output out of 89155 (max. 10000000)
 
